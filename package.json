@@ -1,0 +1,9 @@
+{
+  "name": "axios-initiative",
+  "version": "1.0.0",
+  "description": "AXIOS Initiative Bilingual Web Platform",
+  "scripts": {
+    "dev": "npx serve . -p 8080",
+    "start": "npx serve . -p 8080"
+  }
+}

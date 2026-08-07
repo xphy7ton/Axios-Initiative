@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+*.log
+pdf_wrapper.html
+create_singlepage_pdf.js
+capture_desktop_en.js
+generate_pdf.js
