@@ -36,6 +36,43 @@ function setLanguage(lang) {
   document.documentElement.lang = lang;
 }
 
+let scrollObserver = null;
+
+function triggerEntranceAnimations(targetContainer = document) {
+  const elements = targetContainer.querySelectorAll('.reveal-on-scroll, .reveal-left, .reveal-right, .reveal-scale');
+  
+  elements.forEach(el => {
+    el.classList.remove('is-visible');
+  });
+
+  setTimeout(() => {
+    if ('IntersectionObserver' in window) {
+      if (!scrollObserver) {
+        scrollObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+            }
+          });
+        }, {
+          threshold: 0.1,
+          rootMargin: '0px 0px -20px 0px'
+        });
+      }
+
+      elements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight && rect.bottom > 0) {
+          el.classList.add('is-visible');
+        }
+        scrollObserver.observe(el);
+      });
+    } else {
+      elements.forEach(el => el.classList.add('is-visible'));
+    }
+  }, 40);
+}
+
 function navigateTo(pageId) {
   const views = document.querySelectorAll('.page-view');
   const navLinks = document.querySelectorAll('.nav-link');
@@ -43,6 +80,7 @@ function navigateTo(pageId) {
   views.forEach(view => {
     if (view.id === pageId) {
       view.classList.add('active-view');
+      triggerEntranceAnimations(view);
     } else {
       view.classList.remove('active-view');
     }
@@ -160,6 +198,26 @@ function initApp() {
       }
     });
   });
+
+  // Expandable President Bio toggle handler
+  const bioToggleBtn = document.getElementById('toggle-president-bio');
+  const bioContainer = document.getElementById('president-bio-container');
+  if (bioToggleBtn && bioContainer) {
+    bioToggleBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const isCollapsed = bioContainer.classList.contains('collapsed');
+      const textSpan = bioToggleBtn.querySelector('.btn-text');
+      if (isCollapsed) {
+        bioContainer.classList.remove('collapsed');
+        bioToggleBtn.classList.add('expanded');
+        if (textSpan) textSpan.textContent = 'Mostrar menos';
+      } else {
+        bioContainer.classList.add('collapsed');
+        bioToggleBtn.classList.remove('expanded');
+        if (textSpan) textSpan.textContent = 'Seguir leyendo';
+      }
+    });
+  }
 
   // Initialize with English
   setLanguage('en');

@@ -25,14 +25,14 @@ const translations = {
     btnSubmitHelp: "Submit Confidential Request",
     
     // Hero - Concept & Identity
-    heroBadge: "Porque quienes sirven… son dignos",
+    heroBadge: "Because those who serve… are worthy",
     heroTitle: "Restoring dignity, Honoring the call, Inspiring hope",
-    heroSubtitle: "Hay llamados que se viven frente a muchos, pero cuyas cargas se llevan en silencio. En AXIOS Initiative creemos que quienes han dedicado su vida a cuidar, guiar y servir a otros también merecen ser cuidados.",
-    heroStatement: "Existimos para honrar, fortalecer y acompañar a pastores y sus familias, brindándoles cuidado integral, restauración, formación y apoyo para que puedan vivir su llamado con salud, fortaleza y dignidad.",
-    tagPastor: "Cuidamos al pastor.",
-    tagFamily: "Fortalecemos a la familia.",
-    tagChurch: "Servimos a la Iglesia.",
-    heroCtaPrimary: "Iniciativas",
+    heroSubtitle: "There are callings lived in front of many, but whose burdens are carried in silence. At AXIOS Initiative, we believe that those who have dedicated their lives to caring for, guiding, and serving others also deserve to be cared for.",
+    heroStatement: "We exist to honor, strengthen, and walk alongside pastors and their families, providing them with holistic care, restoration, training, and support so they can live out their calling with health, strength, and dignity.",
+    tagPastor: "We care for the pastor.",
+    tagFamily: "We strengthen the family.",
+    tagChurch: "We serve the Church.",
+    heroCtaPrimary: "Initiatives",
     heroCtaSecondary: "Sponsor a pastor",
     
     // Meaning of Axios
@@ -170,6 +170,34 @@ const translations = {
 
     governanceTitle: "Governance & Fiduciary Integrity",
     governanceDesc: "Governed by a dedicated Board of Directors operating under strict Conflict-of-Interest policies, financial transparency, and zero private inurement. Directors serve with a shared passion for pastoral care.",
+
+    // Our Team Section
+    badgeOurTeam: "Leadership & Governance",
+    titleOurTeam: "Our Team",
+    subtitleOurTeam: "Dedicated leaders, pastors, and servants walking alongside pastoral families across Latin America.",
+    tagPresidentRole: "Fundador & Director Ejecutivo",
+    tagLeadershipBoard: "Junta Directiva",
+    presidentName: "Pr. Lielson Penido",
+    presidentTitle: "Fundador & Director Ejecutivo de AXIOS Initiative",
+    presidentBio: `<p>La historia de Lielson Penido ha estado profundamente marcada por la gracia de Dios, la familia y el ministerio. Adoptado desde pequeño y nacido en el contexto de una familia pastoral, creció en Brasil hasta los 12 años y después se mudó con sus padres a Ecuador como misioneros de la Convención Bautista de Brasil, donde comenzó a formarse su amor por Dios, la Iglesia y el servicio cristiano.</p>
+<p>Más tarde vivió en Nueva York, donde estudió Ciencias de la Computación durante dos años, antes de responder al llamado de Dios al ministerio y continuar su formación en el Seminario Bautista del Sur de Brasil, en Río de Janeiro, donde fue formado teológicamente para el ministerio pastoral. También realizó una maestría de dos años en Dirección Orquestal, integrando su formación musical con su llamado al servicio en la adoración, y obtuvo un certificado en evangelismo en la Escuela de Billy Graham, fortaleciendo su compromiso con la proclamación del evangelio.</p>
+<p>En 1995 contrajo matrimonio con Verónica Penido, su compañera de vida y ministerio. Juntos son padres de dos hijos, Victoria y Lukas, y han dedicado gran parte de su vida a servir a la Iglesia en diferentes culturas y contextos.</p>
+<p>A lo largo de casi tres décadas de ministerio, Lielson ha servido como pastor de adoración en Tampa y Lake Worth, Florida; plantador de iglesias; misionero durante diez años en Europa; y capellán empresarial. Actualmente también sirve como Director de Lenguas de la Asociación Bautista de Tampa Bay, trabajando de cerca con pastores, iglesias y líderes de diferentes contextos culturales.</p>
+<p>Haber crecido en una familia pastoral, formar su propia familia en medio del ministerio y caminar durante décadas al lado de pastores en diferentes países le ha permitido conocer tanto la belleza del llamado como el peso que muchas veces se lleva en silencio.</p>
+<p>De esa historia, experiencia y profunda carga por el bienestar de los pastores y sus familias nace su compromiso con AXIOS Initiative: ayudar a cuidar, fortalecer y honrar a quienes han dedicado sus vidas a cuidar de otros.</p>`,
+    presidentQuote: "“Porque quienes sirven… son dignos.”",
+    roleCare: "Pastoral Care",
+    member2Name: "Pr. Francisco Juarbe, ThD",
+    member2Title: "Director de Cuidado Pastoral – Latinoamérica y el Caribe",
+    member2Bio: "Pastor, mentor y educador cristiano con amplia experiencia en cuidado pastoral, plantación de iglesias y formación de líderes. Sirve en Axios Initiative acompañando y fortaleciendo a pastores y líderes en Latinoamérica y el Caribe.",
+    roleTheology: "Theological Training",
+    member3Name: "Pr. Mario Figueroa",
+    member3Title: "Board Secretary",
+    member3Bio: "Mario ha estado sirviendo como pastor en Tampa desde 2020. En 2023, con un fuerte sentido de llamado a establecer una iglesia multicultural para mantener la unidad generacional en familias bilingües, dejó su carrera de más de 17 años en la industria de la salud para asistir al Sovereign Grace Churches Pastors College en Louisville, KY. Mario luego regresó a Florida para plantar Vine Church Tampa.\n\nMario y su esposa, Diana, nacieron en Puerto Rico y se salvaron durante su juventud adulta. Han estado felizmente casados desde 2011 y tienen dos hijas, Anasofía y Mila. Como familia, disfrutan hablando, haciendo bromas, así como jugando juegos de mesa y noches de cine (especialmente películas de superhéroes).",
+    roleOperations: "Operations & Alliances",
+    member4Name: "Pr. David Endara",
+    member4Title: "Board Treasurer",
+    member4Bio: "Pastor y miembro de la Junta Directiva de Axios Initiative, supervisando la gestión y transparencia financiera de la organización.",
 
     // Initiatives Page
     programsTitle: "INITIATIVES",
@@ -554,7 +582,35 @@ const translations = {
     faith6Desc: "Creemos en la resurrección de todos, la bienaventuranza eterna de los redimidos y la justicia divina final.",
 
     governanceTitle: "Gobernanza e integridad fiduciaria",
-    governanceDesc: "Dirigida por un Consejo Directivo dedicado que opera bajo estrictas políticas de conflicto de intereses, transparencia financiera y ausencia de beneficio privado.",
+    governanceDesc: "Dirigida por un Consejo Directivo dedicado que opera bajo strictly políticas de conflicto de intereses, transparencia financiera y ausencia de beneficio privado.",
+
+    // Our Team Section
+    badgeOurTeam: "Liderazgo & Gobernanza",
+    titleOurTeam: "Nuestro Equipo",
+    subtitleOurTeam: "Líderes, pastores y siervos dedicados a acompañar, equipar y honrar a las familias pastorales en América Latina.",
+    tagPresidentRole: "Fundador & Director Ejecutivo",
+    tagLeadershipBoard: "Junta Directiva",
+    presidentName: "Pr. Lielson Penido",
+    presidentTitle: "Fundador & Director Ejecutivo de AXIOS Initiative",
+    presidentBio: `<p>La historia de Lielson Penido ha estado profundamente marcada por la gracia de Dios, la familia y el ministerio. Adoptado desde pequeño y nacido en el contexto de una familia pastoral, creció en Brasil hasta los 12 años y después se mudó con sus padres a Ecuador como misioneros de la Convención Bautista de Brasil, donde comenzó a formarse su amor por Dios, la Iglesia y el servicio cristiano.</p>
+<p>Más tarde vivió en Nueva York, donde estudió Ciencias de la Computación durante dos años, antes de responder al llamado de Dios al ministerio y continuar su formación en el Seminario Bautista del Sur de Brasil, en Río de Janeiro, donde fue formado teológicamente para el ministerio pastoral. También realizó una maestría de dos años en Dirección Orquestal, integrando su formación musical con su llamado al servicio en la adoración, y obtuvo un certificado en evangelismo en la Escuela de Billy Graham, fortaleciendo su compromiso con la proclamación del evangelio.</p>
+<p>En 1995 contrajo matrimonio con Verónica Penido, su compañera de vida y ministerio. Juntos son padres de dos hijos, Victoria y Lukas, y han dedicado gran parte de su vida a servir a la Iglesia en diferentes culturas y contextos.</p>
+<p>A lo largo de casi tres décadas de ministerio, Lielson ha servido como pastor de adoración en Tampa y Lake Worth, Florida; plantador de iglesias; misionero durante diez años en Europa; y capellán empresarial. Actualmente también sirve como Director de Lenguas de la Asociación Bautista de Tampa Bay, trabajando de cerca con pastores, iglesias y líderes de diferentes contextos culturales.</p>
+<p>Haber crecido en una familia pastoral, formar su propia familia en medio del ministerio y caminar durante décadas al lado de pastores en diferentes países le ha permitido conocer tanto la belleza del llamado como el peso que muchas veces se lleva en silencio.</p>
+<p>De esa historia, experiencia y profunda carga por el bienestar de los pastores y sus familias nace su compromiso con AXIOS Initiative: ayudar a cuidar, fortalecer y honrar a quienes han dedicado sus vidas a cuidar de otros.</p>`,
+    presidentQuote: "«Porque quienes sirven… son dignos.»",
+    roleCare: "Cuidado Pastoral",
+    member2Name: "Pr. Francisco Juarbe, ThD",
+    member2Title: "Director de Cuidado Pastoral – Latinoamérica y el Caribe",
+    member2Bio: "Pastor, mentor y educador cristiano con amplia experiencia en cuidado pastoral, plantación de iglesias y formación de líderes. Sirve en Axios Initiative acompañando y fortaleciendo a pastores y líderes en Latinoamérica y el Caribe.",
+    roleTheology: "Formación Teológica",
+    member3Name: "Pr. Mario Figueroa",
+    member3Title: "Board Secretary",
+    member3Bio: "Mario ha estado sirviendo como pastor en Tampa desde 2020. En 2023, con un fuerte sentido de llamado a establecer una iglesia multicultural para mantener la unidad generacional en familias bilingües, dejó su carrera de más de 17 años en la industria de la salud para asistir al Sovereign Grace Churches Pastors College en Louisville, KY. Mario luego regresó a Florida para plantar Vine Church Tampa.\n\nMario y su esposa, Diana, nacieron en Puerto Rico y se salvaron durante su juventud adulta. Han estado felizmente casados desde 2011 y tienen dos hijas, Anasofía y Mila. Como familia, disfrutan hablando, haciendo bromas, así como jugando juegos de mesa y noches de cine (especialmente películas de superhéroes).",
+    roleOperations: "Operaciones & Alianzas",
+    member4Name: "Pr. David Endara",
+    member4Title: "Board Treasurer",
+    member4Bio: "Pastor y miembro de la Junta Directiva de Axios Initiative, supervisando la gestión y transparencia financiera de la organización.",
 
     // Initiatives Page
     programsTitle: "INICIATIVAS",
