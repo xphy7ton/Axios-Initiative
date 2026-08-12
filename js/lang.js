@@ -49,7 +49,7 @@ const translations = {
 
     // The Four Pillars of AXIOS
     fourPillarsTitle: "The Four Pillars of AXIOS",
-    fourPillarsSubtitle: "The architectural foundation of our ministry to affirm, strengthen, and sustain pastoral families.",
+    fourPillarsSubtitle: "The architectural foundation of our ministry to affirm,<br>strengthen, and sustain pastoral families.",
     
     p1Name: "CARE",
     p1Desc: "Holistic care for the emotional, spiritual, and relational well-being of the pastor and their family.",
@@ -92,7 +92,7 @@ const translations = {
     // Upcoming Projects Section
     badgeUpcomingEvents: "Event & Project Agenda",
     titleUpcomingProjects: "Upcoming Projects",
-    subtitleUpcomingProjects: "Gathering spaces, pastoral retreats, and conferences designed to renew,<br>equip, and honor ministry families.",
+    subtitleUpcomingProjects: "Gathering spaces, pastoral retreats, and conferences<br>designed to renew, equip, and honor ministry families.",
 
     proj1Date: "OCT 15 - 18, 2026",
     proj1Location: "Quito, Ecuador",
@@ -462,7 +462,7 @@ const translations = {
 
     // Los cuatro pilares de AXIOS
     fourPillarsTitle: "Los cuatro pilares de AXIOS",
-    fourPillarsSubtitle: "La columna vertebral de nuestra organización es honrar, fortalecer y acompañar a las familias pastorales.",
+    fourPillarsSubtitle: "La columna vertebral de nuestra organización es honrar,<br>fortalecer y acompañar a las familias pastorales.",
     
     p1Name: "CUIDAR",
     p1Desc: "Cuidado integral para el bienestar emocional, espiritual y relacional del pastor y su familia.",
@@ -505,7 +505,7 @@ const translations = {
     // Upcoming Projects Section
     badgeUpcomingEvents: "Agenda de Eventos & Proyectos",
     titleUpcomingProjects: "Próximos Proyectos",
-    subtitleUpcomingProjects: "Espacios de encuentro, retiros pastorales y conferencias diseñados para renovar,<br>equipar y honrar a las familias ministeriales.",
+    subtitleUpcomingProjects: "Espacios de encuentro, retiros pastorales y conferencias<br>diseñados para renovar, equipar y honrar a las familias ministeriales.",
 
     proj1Date: "15 - 18 OCT, 2026",
     proj1Location: "Quito, Ecuador",
