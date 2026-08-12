@@ -68,14 +68,14 @@ const translations = {
     badgeFoundationalArchitecture: "Foundational Architecture",
 
     // 3 Initiative Cards
-    pillar1Title: "Mental, Emotional and Spiritual Health",
+    pillar1Title: "Mental, Emotional<br>and Spiritual Health",
     pillar1Desc: "Fostering emotional wellness, marital strength, and personal restoration.",
     pillar1Item1: "Pastoral retreats, conferences, and peer support networks.",
     pillar1Item2: "Confidential counseling and mental health care.",
     pillar1Item3: "Dedicated digital platform and mobile app for holistic health.",
     pillar1Item4: "Safe spaces of rest and pastoral renewal.",
 
-    pillar2Title: "Theological Training and Leadership",
+    pillar2Title: "Theological Training<br>and Leadership",
     pillar2Desc: "Equipping leaders with biblical education, mentorship, and ministry tools.",
     pillar2Item1: "Continuous advanced biblical and theological education.",
     pillar2Item2: "Development of ministerial skills and resources.",
@@ -84,10 +84,10 @@ const translations = {
 
     pillar3Title: "Pastoral Sponsorship Initiative",
     pillar3Desc: "Connecting hearts and resources to sustain those who have dedicated their lives to serve.",
-    pillar3Item1: "SUSTAIN — Provide periodic financial support to help the pastoral family.",
-    pillar3Item2: "ACCOMPANY — Build a genuine relationship between sponsors and the pastor.",
-    pillar3Item3: "STRENGTHEN — Invest in spiritual, emotional, marital, and family health.",
-    pillar3Item4: "EMPOWER — Give the pastor opportunities to continue developing their calling.",
+    pillar3Item1: "Provide periodic financial support to help the pastoral family.",
+    pillar3Item2: "Build a genuine relationship between sponsors and the pastor.",
+    pillar3Item3: "Invest in spiritual, emotional, marital, and family health.",
+    pillar3Item4: "Give the pastor opportunities to continue developing their calling.",
 
     // Upcoming Projects Section
     badgeUpcomingEvents: "Event & Project Agenda",
@@ -481,14 +481,14 @@ const translations = {
     badgeFoundationalArchitecture: "Arquitectura Fundacional",
 
     // 3 Initiative Cards
-    pillar1Title: "Salud Mental, Emocional y Espiritual",
+    pillar1Title: "Salud Mental, Emocional<br>y Espiritual",
     pillar1Desc: "Fomentando el bienestar emocional, la fortaleza matrimonial y la restauración personal.",
     pillar1Item1: "Retiros pastorales, conferencias y redes de apoyo.",
     pillar1Item2: "Consejería confidencial y atención a la salud mental.",
     pillar1Item3: "Plataforma digital y app móvil de salud integral.",
     pillar1Item4: "Espacios seguros de descanso y renovación pastoral.",
 
-    pillar2Title: "Formación Teológica y Liderazgo",
+    pillar2Title: "Formación Teológica<br>y Liderazgo",
     pillar2Desc: "Equipando a los líderes con educación bíblica, tutoría y herramientas ministeriales.",
     pillar2Item1: "Formación bíblica y teológica avanzada continua.",
     pillar2Item2: "Desarrollo de habilidades y recursos ministeriales.",
@@ -497,10 +497,10 @@ const translations = {
 
     pillar3Title: "Iniciativa de Patrocinio Pastoral",
     pillar3Desc: "Conectando corazones y recursos para sostener a quienes han dedicado su vida a servir.",
-    pillar3Item1: "SOSTENER — Proveer apoyo financiero periódico que ayude a la familia pastoral.",
-    pillar3Item2: "ACOMPAÑAR — Crear una relación genuina entre el patrocinador y el pastor.",
-    pillar3Item3: "FORTALECER — Invertir en la salud espiritual, emocional, matrimonial y familiar.",
-    pillar3Item4: "IMPULSAR — Dar al pastor oportunidades para continuar desarrollando su llamado.",
+    pillar3Item1: "Proveer apoyo financiero periódico que ayude a la familia pastoral.",
+    pillar3Item2: "Crear una relación genuina entre el patrocinador y el pastor.",
+    pillar3Item3: "Invertir en la salud espiritual, emocional, matrimonial y familiar.",
+    pillar3Item4: "Dar al pastor oportunidades para continuar desarrollando su llamado.",
 
     // Upcoming Projects Section
     badgeUpcomingEvents: "Agenda de Eventos & Proyectos",
