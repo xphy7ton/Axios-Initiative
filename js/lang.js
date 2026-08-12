@@ -89,15 +89,24 @@ const translations = {
     pillar3Item3: "Invest in spiritual, emotional, marital, and family health.",
     pillar3Item4: "Give the pastor opportunities to continue developing their calling.",
 
+    // Dedicated Research Diagnosis Panel (EN)
+    badgeResearchDiagnosis: "Pastoral Research & Diagnosis",
+    titleResearchDiagnosis: "Pastoral Reality in Latin America",
+    subtitleResearchDiagnosis: "Key findings from our regional survey of Baptist pastors, families, and leaders.",
+
+    group1Title: "Mental & Emotional Health",
+    group2Title: "Training & Leadership",
+    group3Title: "Financial Support & Sponsorship",
+
     // Initiative Micro-Stats (EN)
     p1Stat1Num: "76.2%",
     p1Stat1Desc: "of pastors feel isolated or alone.",
     p1Stat2Tag: "Stress Level",
     p1Stat2Num: "92.3%",
-    p1Stat2Desc: "of pastors describe their stress level as 'HIGH'.",
+    p1Stat2Desc: "describe their stress level as 'HIGH'.",
     p1Stat3Tag: "Mental Wellbeing",
     p1Stat3Num: "48.8%",
-    p1Stat3Desc: "rate their mental health and wellbeing as 'NOT GOOD'.",
+    p1Stat3Desc: "rate their mental health as 'NOT GOOD'.",
 
     p2Stat1Tag: "Leadership Development",
     p2Stat1Num: "66.7%",
@@ -107,15 +116,15 @@ const translations = {
     p2Stat2Desc: "require a stronger discipleship framework.",
 
     p3Stat1Num: "71.5%",
-    p3Stat1Desc: "of Baptist pastors lack additional financial support.",
+    p3Stat1Desc: "lack additional financial support.",
     p3Stat2Num: "64.3%",
-    p3Stat2Desc: "of churches offer a salary below what is considered dignified.",
+    p3Stat2Desc: "salary below what is considered dignified.",
     p3Stat3Num: "$118",
-    p3Stat3Desc: "is the average estimated monthly retirement income.",
+    p3Stat3Desc: "average monthly retirement income.",
     p3Stat4Num: "78.6%",
     p3Stat4Desc: "have no retirement plan (only 21.4% have a plan).",
 
-    researchNoteText: "Note: These figures represent the findings of a 14-month study and survey conducted across 19 countries and 21 Baptist Conventions in Latin America.",
+    researchNoteText: "\"This information represents the findings of a 14-month study and survey conducted across 19 countries and 21 Baptist Conventions in Latin America.\"",
 
     // Upcoming Projects Section
     badgeUpcomingEvents: "Event & Project Agenda",
@@ -530,15 +539,24 @@ const translations = {
     pillar3Item3: "Invertir en la salud espiritual, emocional, matrimonial y familiar.",
     pillar3Item4: "Dar al pastor oportunidades para continuar desarrollando su llamado.",
 
+    // Dedicated Research Diagnosis Panel (ES)
+    badgeResearchDiagnosis: "Investigación & Diagnóstico Pastoral",
+    titleResearchDiagnosis: "La Realidad Pastoral en América Latina",
+    subtitleResearchDiagnosis: "Hallazgos clave de nuestra investigación regional a líderes, familias y pastores bautistas.",
+
+    group1Title: "Salud Mental & Emocional",
+    group2Title: "Formación & Liderazgo",
+    group3Title: "Sostén Financiero & Patrocinio",
+
     // Initiative Micro-Stats (ES)
     p1Stat1Num: "76.2%",
     p1Stat1Desc: "de los pastores se sienten aislados o solos.",
     p1Stat2Tag: "Nivel de Estrés",
     p1Stat2Num: "92.3%",
-    p1Stat2Desc: "de los pastores describe su nivel de estrés como \"ALTO\".",
+    p1Stat2Desc: "describe su nivel de estrés como \"ALTO\".",
     p1Stat3Tag: "Bienestar Mental",
     p1Stat3Num: "48.8%",
-    p1Stat3Desc: "califican su salud y bienestar mental como \"NO BUENO\".",
+    p1Stat3Desc: "califican su salud mental como \"NO BUENO\".",
 
     p2Stat1Tag: "Desarrollo de Liderazgo",
     p2Stat1Num: "66.7%",
@@ -548,15 +566,15 @@ const translations = {
     p2Stat2Desc: "requiere un programa de discipulado más fuerte.",
 
     p3Stat1Num: "71.5%",
-    p3Stat1Desc: "de los pastores bautistas no cuentan con apoyo financiero adicional.",
+    p3Stat1Desc: "sin apoyo financiero adicional.",
     p3Stat2Num: "64.3%",
-    p3Stat2Desc: "de las iglesias ofrecen un salario por debajo de lo digno.",
+    p3Stat2Desc: "salario por debajo de lo digno.",
     p3Stat3Num: "$118",
-    p3Stat3Desc: "es el ingreso promedio mensual de jubilación.",
+    p3Stat3Desc: "ingreso promedio mensual de jubilación.",
     p3Stat4Num: "78.6%",
-    p3Stat4Desc: "carecen de plan de jubilación (solo 21.4% cuenta con plan).",
+    p3Stat4Desc: "sin plan de jubilación (solo 21.4% con plan).",
 
-    researchNoteText: "Nota: Estos datos representan el resultado de una investigación y encuesta de 14 meses realizada en 19 países y 21 Convenciones Bautistas de América Latina.",
+    researchNoteText: "\"Esta información representa el resultado de una investigación y encuesta de 14 meses realizada en 19 países y 21 Convenciones Bautistas de América Latina.\"",
 
     // Upcoming Projects Section
     badgeUpcomingEvents: "Agenda de Eventos & Proyectos",
