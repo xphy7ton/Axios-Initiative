@@ -609,6 +609,9 @@ body {
   color: var(--text-main);
   margin-bottom: 10px;
   line-height: 1.35;
+  min-height: 3.4rem;
+  display: flex;
+  align-items: flex-start;
 }
 
 .event-card-desc {
@@ -616,6 +619,7 @@ body {
   color: var(--text-muted);
   line-height: 1.5;
   margin-bottom: 20px;
+  min-height: 4.1rem;
   flex-grow: 1;
 }
 
