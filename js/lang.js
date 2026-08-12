@@ -92,7 +92,7 @@ const translations = {
     // Upcoming Projects Section
     badgeUpcomingEvents: "Event & Project Agenda",
     titleUpcomingProjects: "Upcoming Projects",
-    subtitleUpcomingProjects: "Gathering spaces, pastoral retreats, and conferences designed to renew, equip, and honor ministry families.",
+    subtitleUpcomingProjects: "Gathering spaces, pastoral retreats, and conferences designed to renew,<br>equip, and honor ministry families.",
 
     proj1Date: "OCT 15 - 18, 2026",
     proj1Location: "Quito, Ecuador",
@@ -143,8 +143,8 @@ const translations = {
 
     // About Page
     aboutTitle: "About AXIOS INITIATIVE",
-    aboutSubtitle: "Dedicated to caring for those who shepherd God's church.",
-    aboutMissionTitle: "Our Mission & Purpose",
+    aboutSubtitle: "AXIOS no comenzó con una organización. Comenzó con una carga en el corazón.",
+    aboutMissionTitle: "Cuidando el corazón detrás del llamado",
     aboutMissionDesc: "Organized exclusively as a Christian nonprofit organization under IRS 501(c)(3), AXIOS INITIATIVE exists to uphold the dignity, emotional resilience, and financial wellbeing of Baptist pastors and their immediate families connected with their local Baptist Convention.",
     
     statementOfFaithTitle: "Statement of Faith",
@@ -505,7 +505,7 @@ const translations = {
     // Upcoming Projects Section
     badgeUpcomingEvents: "Agenda de Eventos & Proyectos",
     titleUpcomingProjects: "Próximos Proyectos",
-    subtitleUpcomingProjects: "Espacios de encuentro, retiros pastorales y conferencias diseñados para renovar, equipar y honrar a las familias ministeriales.",
+    subtitleUpcomingProjects: "Espacios de encuentro, retiros pastorales y conferencias diseñados para renovar,<br>equipar y honrar a las familias ministeriales.",
 
     proj1Date: "15 - 18 OCT, 2026",
     proj1Location: "Quito, Ecuador",
@@ -556,8 +556,8 @@ const translations = {
 
     // About Page
     aboutTitle: "Sobre AXIOS INITIATIVE",
-    aboutSubtitle: "Dedicados a cuidar a quienes pastorean la iglesia de Dios.",
-    aboutMissionTitle: "Nuestra misión y propósito",
+    aboutSubtitle: "AXIOS no comenzó con una organización. Comenzó con una carga en el corazón.",
+    aboutMissionTitle: "Cuidando el corazón detrás del llamado",
     aboutMissionDesc: "Organizada exclusivamente como una entidad cristiana sin fines de lucro bajo la Sección 501(c)(3) del IRS, AXIOS INITIATIVE existe para respaldar la dignidad, la resiliencia emocional y la estabilidad financiera de los pastores bautistas y sus familias vinculados a su Convención Bautista local.",
 
     statementOfFaithTitle: "Declaración de fe",
