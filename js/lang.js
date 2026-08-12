@@ -89,6 +89,34 @@ const translations = {
     pillar3Item3: "Invest in spiritual, emotional, marital, and family health.",
     pillar3Item4: "Give the pastor opportunities to continue developing their calling.",
 
+    // Initiative Micro-Stats (EN)
+    p1Stat1Num: "76.2%",
+    p1Stat1Desc: "of pastors feel isolated or alone.",
+    p1Stat2Tag: "Stress Level",
+    p1Stat2Num: "92.3%",
+    p1Stat2Desc: "of pastors describe their stress level as 'HIGH'.",
+    p1Stat3Tag: "Mental Wellbeing",
+    p1Stat3Num: "48.8%",
+    p1Stat3Desc: "rate their mental health and wellbeing as 'NOT GOOD'.",
+
+    p2Stat1Tag: "Leadership Development",
+    p2Stat1Num: "66.7%",
+    p2Stat1Desc: "express a need for leadership strengthening.",
+    p2Stat2Tag: "Discipleship",
+    p2Stat2Num: "61.9%",
+    p2Stat2Desc: "require a stronger discipleship framework.",
+
+    p3Stat1Num: "71.5%",
+    p3Stat1Desc: "of Baptist pastors lack additional financial support.",
+    p3Stat2Num: "64.3%",
+    p3Stat2Desc: "of churches offer a salary below what is considered dignified.",
+    p3Stat3Num: "$118",
+    p3Stat3Desc: "is the average estimated monthly retirement income.",
+    p3Stat4Num: "78.6%",
+    p3Stat4Desc: "have no retirement plan (only 21.4% have a plan).",
+
+    researchNoteText: "Note: These figures represent the findings of a 14-month study and survey conducted across 19 countries and 21 Baptist Conventions in Latin America.",
+
     // Upcoming Projects Section
     badgeUpcomingEvents: "Event & Project Agenda",
     titleUpcomingProjects: "Upcoming Projects",
@@ -501,6 +529,34 @@ const translations = {
     pillar3Item2: "Crear una relación genuina entre el patrocinador y el pastor.",
     pillar3Item3: "Invertir en la salud espiritual, emocional, matrimonial y familiar.",
     pillar3Item4: "Dar al pastor oportunidades para continuar desarrollando su llamado.",
+
+    // Initiative Micro-Stats (ES)
+    p1Stat1Num: "76.2%",
+    p1Stat1Desc: "de los pastores se sienten aislados o solos.",
+    p1Stat2Tag: "Nivel de Estrés",
+    p1Stat2Num: "92.3%",
+    p1Stat2Desc: "de los pastores describe su nivel de estrés como \"ALTO\".",
+    p1Stat3Tag: "Bienestar Mental",
+    p1Stat3Num: "48.8%",
+    p1Stat3Desc: "califican su salud y bienestar mental como \"NO BUENO\".",
+
+    p2Stat1Tag: "Desarrollo de Liderazgo",
+    p2Stat1Num: "66.7%",
+    p2Stat1Desc: "expresa necesidad de fortalecimiento en liderazgo.",
+    p2Stat2Tag: "Discipulado",
+    p2Stat2Num: "61.9%",
+    p2Stat2Desc: "requiere un programa de discipulado más fuerte.",
+
+    p3Stat1Num: "71.5%",
+    p3Stat1Desc: "de los pastores bautistas no cuentan con apoyo financiero adicional.",
+    p3Stat2Num: "64.3%",
+    p3Stat2Desc: "de las iglesias ofrecen un salario por debajo de lo digno.",
+    p3Stat3Num: "$118",
+    p3Stat3Desc: "es el ingreso promedio mensual de jubilación.",
+    p3Stat4Num: "78.6%",
+    p3Stat4Desc: "carecen de plan de jubilación (solo 21.4% cuenta con plan).",
+
+    researchNoteText: "Nota: Estos datos representan el resultado de una investigación y encuesta de 14 meses realizada en 19 países y 21 Convenciones Bautistas de América Latina.",
 
     // Upcoming Projects Section
     badgeUpcomingEvents: "Agenda de Eventos & Proyectos",

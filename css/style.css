@@ -384,6 +384,86 @@ body {
   display: block !important;
 }
 
+/* Initiative Statistics Micro-Cards */
+.initiative-stats-box {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px dashed rgba(227, 83, 9, 0.35);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.initiative-stat-item {
+  background: rgba(7, 13, 25, 0.65);
+  border: 1px solid rgba(227, 83, 9, 0.25);
+  border-radius: 14px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  transition: all var(--transition-fast);
+}
+
+.initiative-stat-item:hover {
+  background: rgba(227, 83, 9, 0.12);
+  border-color: rgba(227, 83, 9, 0.55);
+  transform: translateX(3px);
+  box-shadow: 0 4px 15px rgba(227, 83, 9, 0.15);
+}
+
+.stat-number-highlight {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--primary-orange-light);
+  line-height: 1;
+  flex-shrink: 0;
+  min-width: 65px;
+  text-shadow: 0 0 12px rgba(227, 83, 9, 0.3);
+}
+
+.stat-text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.stat-text-label {
+  font-size: 0.8125rem;
+  color: var(--text-body);
+  line-height: 1.35;
+}
+
+.stat-tag-mini {
+  display: inline-block;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--primary-orange-light);
+}
+
+.research-note-banner {
+  margin-top: 40px;
+  padding: 18px 28px;
+  background: linear-gradient(135deg, rgba(14, 23, 42, 0.9) 0%, rgba(7, 13, 25, 0.95) 100%);
+  border: 1px solid rgba(227, 83, 9, 0.4);
+  border-radius: 18px;
+  text-align: center;
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  line-height: 1.5;
+}
+
+.research-note-banner svg {
+  flex-shrink: 0;
+}
+
 /* 4 Roman Pillars of AXIOS Section Styling */
 .roman-pillars-grid {
   display: grid;
