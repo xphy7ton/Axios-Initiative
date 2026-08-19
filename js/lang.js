@@ -82,7 +82,7 @@ const translations = {
     pillar2Item3: "Personalized mentorship and study cohorts.",
     pillar2Item4: "Resources and tools to sharpen the calling.",
 
-    pillar3Title: "Pastoral Sponsorship Initiative",
+    pillar3Title: "Pastor Family Adoption Initiative",
     pillar3Desc: "Connecting hearts and resources to sustain those who have dedicated their lives to serve.",
     pillar3Item1: "Provide periodic financial support to help the pastoral family.",
     pillar3Item2: "Build a genuine relationship between sponsors and the pastor.",
@@ -246,7 +246,7 @@ const translations = {
     program2Title: "Theological Training & Leadership",
     program2Desc: "Advanced biblical education, leadership development, mentorship, and practical training programs to equip ministry leaders.",
 
-    program3Title: "Pastor Sponsorship Initiative",
+    program3Title: "Pastor Family Adoption Initiative",
     program3Desc: "Holistic financial assistance, emergency relief, sabbatical grants, and long-term sponsorship for pastoral families facing hardship.",
 
     // Health Initiative Page (Mental, Emotional and Spiritual Health)
@@ -349,6 +349,10 @@ const translations = {
 
     tMod11Title: "Pastor's Continuing Education Initiative",
     tMod11Desc: "Fostering lifelong learning through annual reading plans, master classes, advanced theology, and certifications.",
+
+    // Pastor Family Adoption Initiative Page (Core Initiative 03)
+    sponsorshipPageTitle: "Pastor Family Adoption Initiative",
+    sponsorshipPageSubtitle: "Honoring the Calling. Strengthening the Family and Sustaining the Mission",
 
     // Projects Overview & Ecuador Subpage
     projectsPageTitle: "LATIN AMERICA REGIONAL PROJECTS",
@@ -532,7 +536,7 @@ const translations = {
     pillar2Item3: "Acompañamiento personalizado y cohortes de estudio.",
     pillar2Item4: "Recursos y herramientas para afilar el llamado.",
 
-    pillar3Title: "Iniciativa de Patrocinio Pastoral",
+    pillar3Title: "Pastor Family Adoption Initiative",
     pillar3Desc: "Conectando corazones y recursos para sostener a quienes han dedicado su vida a servir.",
     pillar3Item1: "Proveer apoyo financiero periódico que ayude a la familia pastoral.",
     pillar3Item2: "Crear una relación genuina entre el patrocinador y el pastor.",
@@ -696,7 +700,7 @@ const translations = {
     program2Title: "Capacitación teológica y liderazgo",
     program2Desc: "Educación bíblica avanzada, desarrollo de liderazgo, tutoría y programas de capacitación práctica para equipar a los líderes ministeriales.",
 
-    program3Title: "Iniciativa de patrocinio pastoral",
+    program3Title: "Pastor Family Adoption Initiative",
     program3Desc: "Asistencia financiera integral, alivio de emergencia, becas para sabáticos y patrocinio a largo plazo para familias pastorales en dificultad.",
 
     // Health Initiative Page (Mental, Emotional and Spiritual Health)
@@ -801,9 +805,9 @@ const translations = {
     tMod11Title: "Iniciativa de educación continua pastoral",
     tMod11Desc: "Facilitando oportunidades, becas y alianzas para que pastores puedan acceder a maestrías, doctorados, certificaciones y otros programas de formación avanzada.",
 
-    // Pastor Sponsorship Initiative Page (Core Initiative 03 - 15 Points)
-    sponsorshipPageTitle: "INICIATIVA DE PATROCINIO PASTORAL",
-    sponsorshipPageSubtitle: "Honrar el llamado. Fortalecer a la familia. Sostener la misión.<br>Conectando recursos y corazones para respaldar con dignidad a las familias pastorales.",
+    // Pastor Family Adoption Initiative Page (Core Initiative 03 - 15 Points)
+    sponsorshipPageTitle: "Pastor Family Adoption Initiative",
+    sponsorshipPageSubtitle: "Honrando el llamado. Fortaleciendo la Familia y sostenciendo la Misión",
 
     sMod1Title: "Visión y propósito",
     sMod1Desc: "Conectando iglesias y personas con pastores bautistas fieles y sus familias que demuestran carácter bíblico, fruto ministerial, rendición de cuentas y necesidad financiera verificada.",
