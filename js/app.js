@@ -253,6 +253,30 @@ function initApp() {
     });
   }
 
+  // Framework Modal toggle handler (Card 02)
+  const frameworkModal = document.getElementById('frameworkModal');
+  const closeFrameworkModalBtn = document.getElementById('closeFrameworkModalBtn');
+
+  document.querySelectorAll('.trigger-framework-modal').forEach(trigger => {
+    trigger.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (frameworkModal) frameworkModal.classList.add('active');
+    });
+  });
+
+  if (closeFrameworkModalBtn && frameworkModal) {
+    closeFrameworkModalBtn.addEventListener('click', () => {
+      frameworkModal.classList.remove('active');
+    });
+
+    frameworkModal.addEventListener('click', (e) => {
+      if (e.target === frameworkModal) {
+        frameworkModal.classList.remove('active');
+      }
+    });
+  }
+
   // Initialize with English
   setLanguage('en');
   navigateTo('home');

@@ -1138,18 +1138,19 @@
           </div>
 
           <!-- Option 2: Financial Adoption Framework -->
-          <div class="glass-panel health-option-card">
-            <div class="health-icon-header">
-              <span class="health-card-number">02</span>
-              <svg class="health-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"></rect><line x1="2" y1="10" x2="22" y2="10"></line></svg>
+          <div class="glass-panel health-option-card trigger-framework-modal" style="cursor: pointer; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div class="health-icon-header">
+                <span class="health-card-number">02</span>
+                <svg class="health-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"></rect><line x1="2" y1="10" x2="22" y2="10"></line></svg>
+              </div>
+              <h3 class="health-card-title" data-i18n="sMod4Title" style="margin-bottom: 20px;">Marco de Adopción Financiera</h3>
             </div>
-            <h3 class="health-card-title" data-i18n="sMod4Title">Marco de patrocinio</h3>
-            <p class="health-card-desc" data-i18n="sMod4Desc">Ventana estándar de $200 a $500 mensuales determinada mediante una evaluación financiera familiar imparcial realizada por Axios.</p>
-            <ul class="health-card-list">
-              <li><span data-i18n="sMod4Item1">$200 - $300: Apoyo complementario y brecha moderada</span></li>
-              <li><span data-i18n="sMod4Item2">$400 - $500: Brecha significativa y alto costo local</span></li>
-              <li><span data-i18n="sMod4Item3">Límite de $500 para fortalecer sin reemplazar</span></li>
-            </ul>
+            <div style="text-align: center; margin-top: auto; padding-top: 14px;">
+              <button class="glass-btn glass-btn-primary trigger-framework-modal" style="font-size: 0.8125rem; padding: 8px 18px; width: 100%; justify-content: center;" data-i18n="btnReadSecondStep">
+                Ver segundo paso
+              </button>
+            </div>
           </div>
 
           <!-- Option 3: How Axios Determines Sponsorship Amount -->
@@ -1944,6 +1945,60 @@
           </div>
 
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: MARCO DE ADOPCIÓN FINANCIERA (Card 02 Framework Modal) -->
+  <div id="frameworkModal" class="modal-overlay">
+    <div class="glass-panel modal-card team-modal-card" style="max-width: 900px !important;">
+      <div class="modal-header team-modal-header" style="padding-bottom: 16px;">
+        <div>
+          <span class="glass-badge" style="background: rgba(227, 83, 9, 0.15); border-color: rgba(227, 83, 9, 0.35); color: var(--primary-orange-light); font-size: 0.8125rem; font-weight: 700; padding: 4px 12px;">Pastor Family Adoption Initiative</span>
+          <h2 style="font-size: 1.5rem; font-weight: 800; color: var(--text-main); margin-top: 8px;" data-i18n="sMod4Title">Marco de Adopción Financiera</h2>
+        </div>
+        <button id="closeFrameworkModalBtn" class="modal-close">&times;</button>
+      </div>
+
+      <!-- Scrollable Content Body -->
+      <div class="team-modal-scrollable-body custom-scrollbar" style="max-height: 72vh; padding-right: 12px; margin-top: 16px;">
+        <p style="font-size: 0.95rem; color: #E2E8F0; line-height: 1.7; margin-bottom: 20px;" data-i18n="frameworkIntro">
+          La ventana estándar de patrocinio de Axios es de 200 a 500 dólares al mes. El pastor no selecciona la cantidad y el donante no determina la necesidad de la familia. Axios establece la cantidad del patrocinio mediante una Evaluación Financiera Familiar Pastoral confidencial.
+        </p>
+
+        <!-- Structured Table -->
+        <div style="overflow-x: auto; margin-bottom: 22px; border-radius: 14px; border: 1px solid rgba(227, 83, 9, 0.35); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);">
+          <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.90625rem;">
+            <thead>
+              <tr style="background: linear-gradient(135deg, rgba(30, 41, 59, 0.95) 0%, rgba(15, 23, 42, 0.95) 100%); border-bottom: 1px solid rgba(227, 83, 9, 0.4);">
+                <th style="padding: 14px 18px; color: var(--primary-orange-light); font-weight: 700; width: 30%; border-right: 1px solid rgba(255, 255, 255, 0.1);" data-i18n="tableHeaderSponsorship">Patrocinio mensual</th>
+                <th style="padding: 14px 18px; color: #FFFFFF; font-weight: 700; width: 70%;" data-i18n="tableHeaderProfile">Perfil financiero general</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="background: rgba(14, 23, 42, 0.6); border-bottom: 1px solid rgba(255, 255, 255, 0.08);">
+                <td style="padding: 14px 18px; font-weight: 700; color: #FFFFFF; border-right: 1px solid rgba(255, 255, 255, 0.08);" data-i18n="tableRow1Amount">100 - 200 dólares</td>
+                <td style="padding: 14px 18px; color: var(--text-body); line-height: 1.6;" data-i18n="tableRow1Desc">Apoyo complementario cuando la iglesia o la familia ya cubren una parte significativa de las necesidades básicas.</td>
+              </tr>
+              <tr style="background: rgba(7, 13, 25, 0.6); border-bottom: 1px solid rgba(255, 255, 255, 0.08);">
+                <td style="padding: 14px 18px; font-weight: 700; color: #FFFFFF; border-right: 1px solid rgba(255, 255, 255, 0.08);" data-i18n="tableRow2Amount">300 dólares</td>
+                <td style="padding: 14px 18px; color: var(--text-body); line-height: 1.6;" data-i18n="tableRow2Desc">Brecha moderada verificada que afecta a las necesidades normales del hogar.</td>
+              </tr>
+              <tr style="background: rgba(14, 23, 42, 0.6); border-bottom: 1px solid rgba(255, 255, 255, 0.08);">
+                <td style="padding: 14px 18px; font-weight: 700; color: #FFFFFF; border-right: 1px solid rgba(255, 255, 255, 0.08);" data-i18n="tableRow3Amount">400 dólares</td>
+                <td style="padding: 14px 18px; color: var(--text-body); line-height: 1.6;" data-i18n="tableRow3Desc">Una brecha significativa entre la compensación pastoral y los razonables costes de vida locales.</td>
+              </tr>
+              <tr style="background: rgba(7, 13, 25, 0.6);">
+                <td style="padding: 14px 18px; font-weight: 700; color: var(--primary-orange-light); border-right: 1px solid rgba(255, 255, 255, 0.08);" data-i18n="tableRow4Amount">500 dólares</td>
+                <td style="padding: 14px 18px; color: var(--text-body); line-height: 1.6;" data-i18n="tableRow4Desc">Patrocinio máximo estándar de Axios para necesidad verificada sustancial.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p style="font-size: 0.90625rem; color: var(--text-muted); line-height: 1.7; background: rgba(7, 13, 25, 0.5); padding: 16px; border-radius: 12px; border-left: 3px solid var(--primary-orange); margin: 0;" data-i18n="frameworkFooter">
+          El máximo de 500 dólares se mantiene incluso cuando la brecha financiera verificada de la familia es mayor. Axios está diseñado para fortalecer la base financiera de la familia, no necesariamente para reemplazar la responsabilidad de la iglesia ni convertirse en la principal fuente de ingresos de la familia.
+        </p>
       </div>
     </div>
   </div>
