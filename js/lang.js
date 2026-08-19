@@ -1247,7 +1247,7 @@ const translations = {
     sMod7Item2: "Asociación Bautista: participación activa",
     sMod7Item3: "Convención Bautista: testimonio denominacional",
 
-    sMod8Title: "Proceso de selección<br>(14 pasos)",
+    sMod8Title: "Proceso de selección",
     sMod8Desc: "Recorrido estructurado desde la solicitud inicial, verificación denominacional y evaluación familiar, hasta el inicio de la alianza.",
     sMod8Item1: "Evaluación financiera y entrevista confidencial",
     sMod8Item2: "Aprobación por el Consejo de Calificación",
