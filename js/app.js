@@ -202,7 +202,7 @@ function initApp() {
   if (initCard1) {
     initCard1.style.cursor = 'pointer';
     initCard1.addEventListener('click', () => {
-      navigateTo('program-health');
+      navigateTo('initiative-health');
     });
   }
 
@@ -210,7 +210,7 @@ function initApp() {
   if (initCard2) {
     initCard2.style.cursor = 'pointer';
     initCard2.addEventListener('click', () => {
-      navigateTo('program-theological');
+      navigateTo('initiative-theological');
     });
   }
 
@@ -228,9 +228,9 @@ function initApp() {
       e.preventDefault();
       document.querySelectorAll('.nav-dropdown-wrapper').forEach(w => w.classList.remove('active'));
       if (index === 0) {
-        navigateTo('program-health');
+        navigateTo('initiative-health');
       } else if (index === 1) {
-        navigateTo('program-theological');
+        navigateTo('initiative-theological');
       } else if (index === 2) {
         navigateTo('initiative-sponsorship');
       } else {
