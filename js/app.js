@@ -229,6 +229,30 @@ function initApp() {
     });
   }
 
+  // Adoption Modal toggle handler
+  const adoptionModal = document.getElementById('adoptionModal');
+  const closeAdoptionModalBtn = document.getElementById('closeAdoptionModalBtn');
+
+  document.querySelectorAll('.trigger-adoption-modal').forEach(trigger => {
+    trigger.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (adoptionModal) adoptionModal.classList.add('active');
+    });
+  });
+
+  if (closeAdoptionModalBtn && adoptionModal) {
+    closeAdoptionModalBtn.addEventListener('click', () => {
+      adoptionModal.classList.remove('active');
+    });
+
+    adoptionModal.addEventListener('click', (e) => {
+      if (e.target === adoptionModal) {
+        adoptionModal.classList.remove('active');
+      }
+    });
+  }
+
   // Initialize with English
   setLanguage('en');
   navigateTo('home');

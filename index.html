@@ -1122,18 +1122,18 @@
         <!-- 4 Columns Grid for 13 Options -->
         <div class="health-options-grid">
           <!-- Option 1: Ways Churches & Individuals Can Adopt -->
-          <div class="glass-panel health-option-card">
+          <div class="glass-panel health-option-card trigger-adoption-modal" style="cursor: pointer;">
             <div class="health-icon-header">
               <span class="health-card-number">01</span>
               <svg class="health-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
             </div>
-            <h3 class="health-card-title" data-i18n="sMod3Title">Modalidades de adopción</h3>
-            <p class="health-card-desc" data-i18n="sMod3Desc">Formas flexibles para que personas, familias, iglesias, empresas y fundaciones adopten a una o más familias pastorales.</p>
-            <ul class="health-card-list">
-              <li><span data-i18n="sMod3Item1">Adopción Completa ($200-$500/mes) o Compartida</span></li>
-              <li><span data-i18n="sMod3Item2">Adopción Eclesiástica e Integración en Misiones</span></li>
-              <li><span data-i18n="sMod3Item3">Socio Mensual y Fondo de Mayor Necesidad</span></li>
-            </ul>
+            <h3 class="health-card-title" data-i18n="sMod3Title">Formas en que iglesias e individuos pueden adoptar</h3>
+            <p class="health-card-desc" data-i18n="sMod3Desc">Conoce las 6 modalidades flexibles para que iglesias, familias y particulares respalden a una o más familias pastorales.</p>
+            <div style="text-align: center; margin-top: 16px;">
+              <button class="glass-btn glass-btn-primary trigger-adoption-modal" style="font-size: 0.8125rem; padding: 8px 18px;" data-i18n="btnReadMoreAdoption">
+                Ver modalidades
+              </button>
+            </div>
           </div>
 
           <!-- Option 2: Financial Adoption Framework -->
@@ -1856,6 +1856,92 @@
           <div id="modalMemberQuoteBox" class="team-quote-box" style="margin-top: 20px; border-left: 3px solid var(--primary-orange); padding: 12px 16px; background: rgba(7, 13, 25, 0.5); border-radius: 0 12px 12px 0; display: none;">
             <p id="modalMemberQuote" style="font-style: italic; font-size: 0.90625rem; color: var(--text-muted);"></p>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: MODALIDADES DE ADOPCIÓN (Adoption Options Modal) -->
+  <div id="adoptionModal" class="modal-overlay">
+    <div class="glass-panel modal-card team-modal-card" style="max-width: 960px !important;">
+      <div class="modal-header team-modal-header" style="padding-bottom: 16px;">
+        <div>
+          <span class="glass-badge" style="background: rgba(227, 83, 9, 0.15); border-color: rgba(227, 83, 9, 0.35); color: var(--primary-orange-light); font-size: 0.8125rem; font-weight: 700; padding: 4px 12px;">Pastor Family Adoption Initiative</span>
+          <h2 style="font-size: 1.5rem; font-weight: 800; color: var(--text-main); margin-top: 8px;" data-i18n="sMod3Title">Formas en que iglesias e individuos pueden adoptar</h2>
+        </div>
+        <button id="closeAdoptionModalBtn" class="modal-close">&times;</button>
+      </div>
+
+      <!-- Scrollable Body with 6 Adoption Options Grid -->
+      <div class="team-modal-scrollable-body custom-scrollbar" style="max-height: 72vh; padding-right: 12px; margin-top: 16px;">
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+          
+          <!-- Item 1 -->
+          <div style="background: rgba(14, 23, 42, 0.75); border: 1px solid rgba(227, 83, 9, 0.35); border-radius: 16px; padding: 22px; transition: all 0.3s ease;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+              <span style="display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: rgba(227, 83, 9, 0.25); color: var(--primary-orange-light); font-weight: 800; font-size: 0.875rem;">1</span>
+              <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin: 0;" data-i18n="adoptOpt1Title">Adopción Familiar Completa</h3>
+            </div>
+            <p style="font-size: 0.90625rem; color: var(--text-body); line-height: 1.65; margin: 0;" data-i18n="adoptOpt1Desc">
+              Una iglesia, particular, familia, empresa o fundación cubre la cantidad completa mensual aprobada por Axios.
+            </p>
+          </div>
+
+          <!-- Item 2 -->
+          <div style="background: rgba(14, 23, 42, 0.75); border: 1px solid rgba(227, 83, 9, 0.35); border-radius: 16px; padding: 22px; transition: all 0.3s ease;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+              <span style="display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: rgba(227, 83, 9, 0.25); color: var(--primary-orange-light); font-weight: 800; font-size: 0.875rem;">2</span>
+              <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin: 0;" data-i18n="adoptOpt2Title">Adopción por familia compartida</h3>
+            </div>
+            <p style="font-size: 0.90625rem; color: var(--text-body); line-height: 1.65; margin: 0;" data-i18n="adoptOpt2Desc">
+              Dos o más patrocinadores combinan sus compromisos para financiar completamente a una familia pastoral aprobada.
+            </p>
+          </div>
+
+          <!-- Item 3 -->
+          <div style="background: rgba(14, 23, 42, 0.75); border: 1px solid rgba(227, 83, 9, 0.35); border-radius: 16px; padding: 22px; transition: all 0.3s ease;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+              <span style="display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: rgba(227, 83, 9, 0.25); color: var(--primary-orange-light); font-weight: 800; font-size: 0.875rem;">3</span>
+              <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin: 0;" data-i18n="adoptOpt3Title">Adopción en la Iglesia</h3>
+            </div>
+            <p style="font-size: 0.90625rem; color: var(--text-body); line-height: 1.65; margin: 0;" data-i18n="adoptOpt3Desc">
+              Una iglesia local incluye una familia pastoral cualificada en su estrategia misionera y se compromete a recibir apoyo financiero mensual, además de oración y estímulo relacional.
+            </p>
+          </div>
+
+          <!-- Item 4 -->
+          <div style="background: rgba(14, 23, 42, 0.75); border: 1px solid rgba(227, 83, 9, 0.35); border-radius: 16px; padding: 22px; transition: all 0.3s ease;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+              <span style="display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: rgba(227, 83, 9, 0.25); color: var(--primary-orange-light); font-weight: 800; font-size: 0.875rem;">4</span>
+              <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin: 0;" data-i18n="adoptOpt4Title">Adopción por múltiples familias</h3>
+            </div>
+            <p style="font-size: 0.90625rem; color: var(--text-body); line-height: 1.65; margin: 0;" data-i18n="adoptOpt4Desc">
+              Las iglesias, empresas o fundaciones más grandes pueden patrocinar varias familias pastorales aprobadas por Axios.
+            </p>
+          </div>
+
+          <!-- Item 5 -->
+          <div style="background: rgba(14, 23, 42, 0.75); border: 1px solid rgba(227, 83, 9, 0.35); border-radius: 16px; padding: 22px; transition: all 0.3s ease;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+              <span style="display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: rgba(227, 83, 9, 0.25); color: var(--primary-orange-light); font-weight: 800; font-size: 0.875rem;">5</span>
+              <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin: 0;" data-i18n="adoptOpt5Title">Socio Mensual de Pastor</h3>
+            </div>
+            <p style="font-size: 0.90625rem; color: var(--text-body); line-height: 1.65; margin: 0;" data-i18n="adoptOpt5Desc">
+              Las personas pueden aportar donaciones recurrentes que Axios combina para completar patrocinios parcialmente financiados.
+            </p>
+          </div>
+
+          <!-- Item 6 -->
+          <div style="background: rgba(14, 23, 42, 0.75); border: 1px solid rgba(227, 83, 9, 0.35); border-radius: 16px; padding: 22px; transition: all 0.3s ease;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+              <span style="display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: rgba(227, 83, 9, 0.25); color: var(--primary-orange-light); font-weight: 800; font-size: 0.875rem;">6</span>
+              <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin: 0;" data-i18n="adoptOpt6Title">Fondo de mayor necesidad</h3>
+            </div>
+            <p style="font-size: 0.90625rem; color: var(--text-body); line-height: 1.65; margin: 0;" data-i18n="adoptOpt6Desc">
+              Los regalos recurrentes o puntuales no designados ayudan a Axios a completar los vacíos de patrocinio o a mantener la continuidad cuando un patrocinador hace la transición.
+            </p>
+          </div>
+
         </div>
       </div>
     </div>
