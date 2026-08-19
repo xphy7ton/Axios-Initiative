@@ -632,7 +632,7 @@ const translations = {
     aboutTitle: "Sobre AXIOS INITIATIVE",
     aboutSubtitle: "AXIOS no comenzó con una organización. Comenzó con una carga en el corazón.",
     aboutMissionTitle: "Cuidando el corazón detrás del llamado",
-    aboutMissionDesc: "Organizada exclusivamente como una entidad cristiana sin fines de lucro bajo la Sección 501(c)(3) del IRS, AXIOS INITIATIVE existe para respaldar la dignidad, la resiliencia emocional y la estabilidad financiera de los pastores bautistas y sus familias vinculados a su Convención Bautista local.",
+    aboutMissionDesc: "Organizada exclusivamente como una entidad cristiana sin fines de lucro bajo la Sección 501(c)(3) del IRS, AXIOS INITIATIVE existe para respaldar la dignidad, la resiliencia emocional y la estabilidad financiera de los pastores bautistas y sus familias vinculados a sus Convenciones Bautistas en América Latina.",
 
     statementOfFaithTitle: "Declaración de fe",
     statementOfFaithSubtitle: "Nuestra base descansa en la doctrina cristiana histórica y la verdad bíblica:",
