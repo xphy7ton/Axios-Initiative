@@ -356,6 +356,12 @@ const translations = {
     adoptionWindowLabel: "Monthly Financial Adoption Window",
     adoptionQuoteP1: "Through the Axios Pastor Family Adoption Initiative, individuals and churches can provide $200-$500 in monthly financial support to qualified pastoral families. Every participating pastor undergoes Axios' pastoral, denominational, ministry, character, and financial verification process. Axios determines the appropriate sponsorship amount based on the family's verified financial need and local cost of living.",
     adoptionQuoteP2: "You provide the partnership. Axios provides the verification and accountability.<br>Together, we strengthen faithful shepherds and their families.",
+    processFlowTitle: "Our Process and Commitment",
+    step1Identificar: "IDENTIFY",
+    step2Verificar: "VERIFY",
+    step3Conectar: "CONNECT",
+    step4Apoyar: "SUPPORT",
+    step5Fortalecer: "STRENGTHEN",
 
     // Projects Overview & Ecuador Subpage
     projectsPageTitle: "LATIN AMERICA REGIONAL PROJECTS",
@@ -814,6 +820,12 @@ const translations = {
     adoptionWindowLabel: "Ventana de Patrocinio Financiero Mensual",
     adoptionQuoteP1: "A través de la Iniciativa de Adopción de Familias Pastorales de Axios, personas e iglesias pueden brindar un apoyo financiero mensual de $200 a $500 a familias pastorales calificadas. Cada pastor participante pasa por el proceso de verificación pastoral, denominacional, ministerial, de carácter y financiero de Axios. Axios determina el monto de patrocinio adecuado en función de la necesidad financiera verificada de la familia y el costo de vida local.",
     adoptionQuoteP2: "Usted brinda la alianza. Axios brinda la verificación y la rendición de cuentas.<br>Juntos, fortalecemos a pastores fieles y a sus familias.",
+    processFlowTitle: "Nuestro Proceso y Compromiso",
+    step1Identificar: "IDENTIFICAR",
+    step2Verificar: "VERIFICAR",
+    step3Conectar: "CONECTAR",
+    step4Apoyar: "APOYAR",
+    step5Fortalecer: "FORTALECER",
 
     sMod1Title: "Visión y propósito",
     sMod1Desc: "Conectando iglesias y personas con pastores bautistas fieles y sus familias que demuestran carácter bíblico, fruto ministerial, rendición de cuentas y necesidad financiera verificada.",
