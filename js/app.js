@@ -73,18 +73,30 @@ function triggerEntranceAnimations(targetContainer = document) {
   }, 40);
 }
 
-function navigateTo(pageId) {
+function navigateTo(pageId, updateHash = true) {
   const views = document.querySelectorAll('.page-view');
   const navLinks = document.querySelectorAll('.nav-link');
 
+  let targetFound = false;
   views.forEach(view => {
     if (view.id === pageId) {
       view.classList.add('active-view');
       triggerEntranceAnimations(view);
+      targetFound = true;
     } else {
       view.classList.remove('active-view');
     }
   });
+
+  // Fallback to home if pageId doesn't exist
+  if (!targetFound) {
+    pageId = 'home';
+    const homeView = document.getElementById('home');
+    if (homeView) {
+      homeView.classList.add('active-view');
+      triggerEntranceAnimations(homeView);
+    }
+  }
 
   navLinks.forEach(link => {
     if (link.dataset.page === pageId) {
@@ -94,10 +106,40 @@ function navigateTo(pageId) {
     }
   });
 
+  if (updateHash) {
+    if (pageId === 'home') {
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+    } else {
+      window.location.hash = pageId;
+    }
+  }
+
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function initApp() {
+  // Restore language from localStorage or browser default
+  const savedLang = localStorage.getItem('axios_lang') || 'es';
+  setLanguage(savedLang);
+
+  // Initial Hash Routing
+  const initialHash = window.location.hash.replace('#', '');
+  if (initialHash) {
+    navigateTo(initialHash, false);
+  } else {
+    navigateTo('home', false);
+  }
+
+  // Handle browser back / forward buttons and hash changes
+  window.addEventListener('hashchange', () => {
+    const currentHash = window.location.hash.replace('#', '');
+    if (currentHash) {
+      navigateTo(currentHash, false);
+    } else {
+      navigateTo('home', false);
+    }
+  });
+
   // Navigation listener
   document.querySelectorAll('[data-page]').forEach(el => {
     el.addEventListener('click', (e) => {
@@ -110,7 +152,9 @@ function initApp() {
   // Language buttons
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      setLanguage(btn.dataset.lang);
+      const lang = btn.dataset.lang;
+      setLanguage(lang);
+      localStorage.setItem('axios_lang', lang);
     });
   });
 
@@ -158,7 +202,7 @@ function initApp() {
   if (initCard1) {
     initCard1.style.cursor = 'pointer';
     initCard1.addEventListener('click', () => {
-      navigateTo('initiative-health');
+      navigateTo('program-health');
     });
   }
 
@@ -166,7 +210,7 @@ function initApp() {
   if (initCard2) {
     initCard2.style.cursor = 'pointer';
     initCard2.addEventListener('click', () => {
-      navigateTo('initiative-theological');
+      navigateTo('program-theological');
     });
   }
 
@@ -184,9 +228,9 @@ function initApp() {
       e.preventDefault();
       document.querySelectorAll('.nav-dropdown-wrapper').forEach(w => w.classList.remove('active'));
       if (index === 0) {
-        navigateTo('initiative-health');
+        navigateTo('program-health');
       } else if (index === 1) {
-        navigateTo('initiative-theological');
+        navigateTo('program-theological');
       } else if (index === 2) {
         navigateTo('initiative-sponsorship');
       } else {
@@ -209,71 +253,60 @@ function initApp() {
     });
   });
 
-  // Expandable President Bio toggle handler
-  const bioToggleBtn = document.getElementById('toggle-president-bio');
-  const bioContainer = document.getElementById('president-bio-container');
-  if (bioToggleBtn && bioContainer) {
-    bioToggleBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      const isCollapsed = bioContainer.classList.contains('collapsed');
-      const textSpan = bioToggleBtn.querySelector('.btn-text');
-      if (isCollapsed) {
-        bioContainer.classList.remove('collapsed');
-        bioToggleBtn.classList.add('expanded');
-        if (textSpan) textSpan.textContent = 'Mostrar menos';
-      } else {
-        bioContainer.classList.add('collapsed');
-        bioToggleBtn.classList.remove('expanded');
-        if (textSpan) textSpan.textContent = 'Seguir leyendo';
-      }
+  // Modals event listeners logic
+  const historyModal = document.getElementById('historyModal');
+  const openHistoryBtn = document.getElementById('openHistoryModalBtn');
+  const closeHistoryBtn = document.getElementById('closeHistoryModalBtn');
+
+  if (openHistoryBtn && historyModal) {
+    openHistoryBtn.addEventListener('click', () => historyModal.classList.add('active'));
+  }
+  if (closeHistoryBtn && historyModal) {
+    closeHistoryBtn.addEventListener('click', () => historyModal.classList.remove('active'));
+  }
+  if (historyModal) {
+    historyModal.addEventListener('click', (e) => {
+      if (e.target === historyModal) historyModal.classList.remove('active');
     });
   }
 
-  // Adoption Modal toggle handler
+  // Adoption modal
   const adoptionModal = document.getElementById('adoptionModal');
-  const closeAdoptionModalBtn = document.getElementById('closeAdoptionModalBtn');
+  const closeAdoptionBtn = document.getElementById('closeAdoptionModalBtn');
 
-  document.querySelectorAll('.trigger-adoption-modal').forEach(trigger => {
-    trigger.addEventListener('click', (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      if (adoptionModal) adoptionModal.classList.add('active');
+  if (adoptionModal) {
+    document.querySelectorAll('.trigger-adoption-modal').forEach(trigger => {
+      trigger.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        adoptionModal.classList.add('active');
+      });
     });
-  });
-
-  if (closeAdoptionModalBtn && adoptionModal) {
-    closeAdoptionModalBtn.addEventListener('click', () => {
-      adoptionModal.classList.remove('active');
-    });
-
+    if (closeAdoptionBtn) {
+      closeAdoptionBtn.addEventListener('click', () => adoptionModal.classList.remove('active'));
+    }
     adoptionModal.addEventListener('click', (e) => {
-      if (e.target === adoptionModal) {
-        adoptionModal.classList.remove('active');
-      }
+      if (e.target === adoptionModal) adoptionModal.classList.remove('active');
     });
   }
 
-  // Framework Modal toggle handler (Card 02)
+  // Framework modal
   const frameworkModal = document.getElementById('frameworkModal');
-  const closeFrameworkModalBtn = document.getElementById('closeFrameworkModalBtn');
+  const closeFrameworkBtn = document.getElementById('closeFrameworkModalBtn');
 
-  document.querySelectorAll('.trigger-framework-modal').forEach(trigger => {
-    trigger.addEventListener('click', (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      if (frameworkModal) frameworkModal.classList.add('active');
+  if (frameworkModal) {
+    document.querySelectorAll('.trigger-framework-modal').forEach(trigger => {
+      trigger.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        frameworkModal.classList.add('active');
+      });
     });
-  });
-
-  if (closeFrameworkModalBtn && frameworkModal) {
-    closeFrameworkModalBtn.addEventListener('click', () => {
-      frameworkModal.classList.remove('active');
-    });
-
+    if (closeFrameworkBtn) {
+      closeFrameworkBtn.addEventListener('click', () => frameworkModal.classList.remove('active'));
+    }
     frameworkModal.addEventListener('click', (e) => {
-      if (e.target === frameworkModal) {
-        frameworkModal.classList.remove('active');
-      }
+      if (e.target === frameworkModal) frameworkModal.classList.remove('active');
     });
   }
 
@@ -297,10 +330,6 @@ function initApp() {
       });
     }
   }
-
-  // Initialize with English
-  setLanguage('en');
-  navigateTo('home');
 }
 
 document.addEventListener('DOMContentLoaded', initApp);
