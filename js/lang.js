@@ -661,7 +661,7 @@ const translations = {
     // Our Team Section
     badgeOurTeam: "Liderazgo & Gobernanza",
     titleOurTeam: "Nuestro Equipo",
-    subtitleOurTeam: "Líderes, pastores y siervos dedicados a acompañar, equipar y honrar a las familias pastorales en América Latina.",
+    subtitleOurTeam: "Líderes, pastores y siervos dedicados a acompañar,<br>equipar y honrar a las familias pastorales en América Latina.",
     tagPresidentRole: "Fundador & Director Ejecutivo",
     tagLeadershipBoard: "Junta Directiva",
     presidentName: "Pr. Lielson Penido",
@@ -673,9 +673,9 @@ const translations = {
 <p>Haber crecido en una familia pastoral, formar su propia familia en medio del ministerio y caminar durante décadas al lado de pastores en diferentes países le ha permitido conocer tanto la belleza del llamado como el peso que muchas veces se lleva en silencio.</p>
 <p>De esa historia, experiencia y profunda carga por el bienestar de los pastores y sus familias nace su compromiso con AXIOS Initiative: ayudar a cuidar, fortalecer y honrar a quienes han dedicado sus vidas a cuidar de otros.</p>`,
     presidentQuote: "«Porque quienes sirven… son dignos.»",
-    roleCare: "Cuidado Pastoral",
+    roleCare: "Vicepresidente",
     member2Name: "Pr. Francisco Juarbe, ThD",
-    member2Title: "Director de Cuidado Pastoral – Latinoamérica y el Caribe",
+    member2Title: "Director de Cuidado Pastoral",
     member2Bio: "Pastor, mentor y educador cristiano con amplia experiencia en cuidado pastoral, plantación de iglesias y formación de líderes. Sirve en Axios Initiative acompañando y fortaleciendo a pastores y líderes en Latinoamérica y el Caribe.",
     roleTheology: "Formación Teológica",
     member3Name: "Pr. Mario Figueroa",

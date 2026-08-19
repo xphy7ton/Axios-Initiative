@@ -151,12 +151,12 @@ function initModalAndForms() {
     },
     "2": {
       name: "Pr. Francisco Juarbe, ThD",
-      title: "Director de Cuidado Pastoral – Latinoamérica y el Caribe",
-      badge: "Board of Directors",
+      title: "Director de Cuidado Pastoral",
+      badge: "Vicepresidente",
       photo: "assets/team-care.jpg",
       quote: "",
       bio: `<p>Francisco Juarbe, ThD, es pastor, mentor y educador cristiano con amplia experiencia en cuidado pastoral, plantación de iglesias y formación de líderes en diversos contextos multiculturales.</p>
-<p>Sirve en AXIOS Initiative acompañando y fortaleciendo a pastores y líderes en Latinoamérica y el Caribe, brindando asesoría confidencial, restauración espiritual y herramientas estratégicas para la sostenibilidad del ministerio eclesial.</p>`
+<p>Sirve en AXIOS Initiative acompañando y fortaleciendo a pastores y líderes, brindando asesoría confidencial, restauración espiritual y herramientas estratégicas para la sostenibilidad del ministerio eclesial.</p>`
     },
     "3": {
       name: "Pr. Mario Figueroa",
