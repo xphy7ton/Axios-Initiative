@@ -786,8 +786,8 @@ const translations = {
     tMod6Title: "Red de mentoría pastoral (Shepherd Network)",
     tMod6Desc: "Conectando a pastores con experiencia con líderes más jóvenes para mentoría mensual, coaching y orientación ministerial.",
 
-    tMod7Title: "Cohortes de liderazgo",
-    tMod7Desc: "Grupos pequeños durante todo el año enfocados en liderazgo, teología, formación espiritual, salud de la iglesia y misiones.",
+    tMod7Title: "Formando discípulos",
+    tMod7Desc: "Acompañando a pastores y líderes en un proceso de crecimiento espiritual, formación bíblica y multiplicación, para que puedan hacer discípulos que hacen discípulos.",
 
     tMod8Title: "Iniciativa de<br>aprendizaje digital",
     tMod8Desc: "Educación bíblica bajo demanda con cursos en línea, biblioteca de videos, podcasts, seminarios web y recursos descargables.",
