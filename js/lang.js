@@ -754,7 +754,7 @@ const translations = {
 
     // Theological Initiative Page
     theoPageTitle: "INICIATIVAS DE FORMACIÓN TEOLÓGICA Y LIDERAZGO",
-    theoPageSubtitle: "Equipando a pastores y líderes para proclamar fielmente la Palabra de Dios, pastorear con excelencia y dirigir iglesias saludables.",
+    theoPageSubtitle: "Equipando a pastores y líderes para proclamar fielmente la Palabra de Dios,<br>pastorear con excelencia y dirigir iglesias saludables.",
 
     tMod1Title: "Iniciativa de predicación expositiva",
     tMod1Desc: "Ayudando a los pastores a proclamar fielmente la Palabra de Dios a través de talleres de sermones, homiléctica y coaching.",
@@ -762,7 +762,7 @@ const translations = {
     tMod1Item2: "Cohortes de predicación y coaching pastoral",
     tMod1Item3: "Biblioteca de recursos de predicación en línea",
 
-    tMod2Title: "Iniciativa de excelencia en el ministerio",
+    tMod2Title: "Iniciativa de excelencia<br>en el ministerio",
     tMod2Desc: "Habilidades prácticas para el ministerio que cubren administración, presupuesto, gestión de voluntarios y responsabilidades legales.",
     tMod2Item1: "Administración de iglesias y presupuestos",
     tMod2Item2: "Gestión de voluntarios y administración del tiempo",
@@ -774,7 +774,7 @@ const translations = {
     tMod3Item2: "Sistemas de evangelismo y discipulado",
     tMod3Item3: "Reestructuración de liderazgo y alcance comunitario",
 
-    tMod4Title: "Iniciativa de plantación de iglesias",
+    tMod4Title: "Iniciativa<br>de plantación de iglesias",
     tMod4Desc: "Preparando a los futuros plantadores de iglesias a través de evaluación, coaching, residencia, estrategia de lanzamiento y recaudación de fondos.",
     tMod4Item1: "Evaluación, coaching y residencia pastoral",
     tMod4Item2: "Estrategia de lanzamiento y recaudación de fondos",
@@ -782,7 +782,6 @@ const translations = {
 
     tMod5Title: "Iniciativa de líderes de la próxima generación",
     tMod5Desc: "Capacitando a jóvenes pastores, estudiantes de seminario, pasantes, pastores asociados y jóvenes plantadores.",
-    tMod5Audience: "Estudiantes de Seminario • Pasantes • Pastores Asociados • Jóvenes Plantadores",
 
     tMod6Title: "Red de mentoría pastoral (Shepherd Network)",
     tMod6Desc: "Conectando a pastores con experiencia con líderes más jóvenes para mentoría mensual, coaching y orientación ministerial.",
@@ -790,11 +789,11 @@ const translations = {
     tMod7Title: "Cohortes de liderazgo",
     tMod7Desc: "Grupos pequeños durante todo el año enfocados en liderazgo, teología, formación espiritual, salud de la iglesia y misiones.",
 
-    tMod8Title: "Iniciativa de aprendizaje digital",
+    tMod8Title: "Iniciativa de<br>aprendizaje digital",
     tMod8Desc: "Educación bíblica bajo demanda con cursos en línea, biblioteca de videos, podcasts, seminarios web y recursos descargables.",
 
     tMod9Title: "Centro de recursos pastorales",
-    tMod9Desc: "Biblioteca digital confiable que ofrece bosquejos de sermones, estudios bíblicos, guías de liderazgo y plantillas ministeriales.",
+    tMod9Desc: "Biblioteca digital confiable que ofrece recursos de sermones, estudios bíblicos, guías de liderazgo y plantillas ministeriales.",
 
     tMod10Title: "Iniciativa de evangelismo y misiones",
     tMod10Desc: "Equipando a las iglesias para alcanzar a sus comunidades y naciones mediante evangelismo personal, misiones y multiplicación.",
