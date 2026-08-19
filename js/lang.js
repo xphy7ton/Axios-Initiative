@@ -8,7 +8,7 @@ const translations = {
     navProgram: "Initiatives",
     navProjects: "Projects",
     navContact: "Contact",
-    btnDonate: "Donate now",
+    btnDonate: "General Donation",
     btnRequestHelp: "Request Help",
     projectSubmenuTitle: "Latin American Pastoral Projects",
 
@@ -32,7 +32,7 @@ const translations = {
     tagPastor: "We care for the pastor.",
     tagFamily: "We strengthen the family.",
     tagChurch: "We serve the Church.",
-    heroCtaPrimary: "Initiatives",
+    heroCtaPrimary: "Adopt a project",
     heroCtaSecondary: "Sponsor a pastor",
     
     // Meaning of Axios
@@ -458,7 +458,7 @@ const translations = {
     navProgram: "Iniciativas",
     navProjects: "Proyectos",
     navContact: "Contacto",
-    btnDonate: "Donar ahora",
+    btnDonate: "Donación General",
     btnRequestHelp: "Solicitar Ayuda",
     projectSubmenuTitle: "Proyectos Pastorales en Latinoamérica",
 
