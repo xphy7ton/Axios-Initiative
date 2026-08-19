@@ -353,6 +353,7 @@ const translations = {
     // Pastor Family Adoption Initiative Page (Core Initiative 03)
     sponsorshipPageTitle: "Pastor Family Adoption Initiative",
     sponsorshipPageSubtitle: "Honoring the Calling. Strengthening the Family and Sustaining the Mission",
+    adoptionWindowLabel: "Monthly Financial Adoption Window",
 
     // Projects Overview & Ecuador Subpage
     projectsPageTitle: "LATIN AMERICA REGIONAL PROJECTS",
@@ -808,6 +809,7 @@ const translations = {
     // Pastor Family Adoption Initiative Page (Core Initiative 03 - 15 Points)
     sponsorshipPageTitle: "Pastor Family Adoption Initiative",
     sponsorshipPageSubtitle: "Honrando el llamado. Fortaleciendo la Familia y sostenciendo la Misión",
+    adoptionWindowLabel: "Ventana de Patrocinio Financiero Mensual",
 
     sMod1Title: "Visión y propósito",
     sMod1Desc: "Conectando iglesias y personas con pastores bautistas fieles y sus familias que demuestran carácter bíblico, fruto ministerial, rendición de cuentas y necesidad financiera verificada.",
