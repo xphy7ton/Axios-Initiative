@@ -799,7 +799,7 @@ const translations = {
     tMod10Desc: "Equipando a las iglesias para alcanzar a sus comunidades y naciones mediante evangelismo personal, misiones y multiplicación.",
 
     tMod11Title: "Iniciativa de educación continua pastoral",
-    tMod11Desc: "Fomentando el aprendizaje continuo a través de planes de lectura anuales, clases magistrales, teología avanzada y certificaciones.",
+    tMod11Desc: "Facilitando oportunidades, becas y alianzas para que pastores puedan acceder a maestrías, doctorados, certificaciones y otros programas de formación avanzada.",
 
     // Projects Overview & Ecuador Subpage
     projectsPageTitle: "PROYECTOS REGIONALES EN LATINOAMÉRICA",
