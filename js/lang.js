@@ -765,7 +765,7 @@ const translations = {
     pillar2Item3: "Acompañamiento personalizado y cohortes de estudio.",
     pillar2Item4: "Recursos y herramientas para afilar el llamado.",
 
-    pillar3Title: "Pastor Family Adoption Initiative",
+    pillar3Title: "Iniciativa de Adopción<br>Familiar Pastoral",
     pillar3Desc: "Conectando corazones y recursos para sostener a quienes han dedicado su vida a servir.",
     pillar3Item1: "Proveer apoyo financiero periódico que ayude a la familia pastoral.",
     pillar3Item2: "Crear una relación genuina entre el patrocinador y el pastor.",
@@ -929,7 +929,7 @@ const translations = {
     program2Title: "Capacitación teológica y liderazgo",
     program2Desc: "Educación bíblica avanzada, desarrollo de liderazgo, tutoría y programas de capacitación práctica para equipar a los líderes ministeriales.",
 
-    program3Title: "Pastor Family Adoption Initiative",
+    program3Title: "Iniciativa de Adopción Familiar Pastoral",
     program3Desc: "Asistencia financiera integral, alivio de emergencia, becas para sabáticos y patrocinio a largo plazo para familias pastorales en dificultad.",
 
     // Health Initiative Page (Mental, Emotional and Spiritual Health)
@@ -1035,7 +1035,7 @@ const translations = {
     tMod11Desc: "Facilitando oportunidades, becas y alianzas para que pastores puedan acceder a maestrías, doctorados, certificaciones y otros programas de formación avanzada.",
 
     // Pastor Family Adoption Initiative Page (Core Initiative 03 - 15 Points)
-    sponsorshipPageTitle: "Pastor Family Adoption Initiative",
+    sponsorshipPageTitle: "Iniciativa de Adopción Familiar Pastoral",
     sponsorshipPageSubtitle: "Honrando el llamado. Fortaleciendo la Familia y sostenciendo la Misión",
     adoptionWindowLabel: "Ventana de Patrocinio Financiero Mensual",
     adoptionQuoteP1: "A través de la Iniciativa de Adopción de Familias Pastorales de Axios, personas e iglesias pueden brindar un apoyo financiero mensual de $200 a $500 a familias pastorales calificadas. Cada pastor participante pasa por el proceso de verificación pastoral, denominacional, ministerial, de carácter y financiero de Axios. Axios determina el monto de patrocinio adecuado en función de la necesidad financiera verificada de la familia y el costo de vida local.",
