@@ -801,6 +801,64 @@ const translations = {
     tMod11Title: "Iniciativa de educación continua pastoral",
     tMod11Desc: "Facilitando oportunidades, becas y alianzas para que pastores puedan acceder a maestrías, doctorados, certificaciones y otros programas de formación avanzada.",
 
+    // Pastor Sponsorship Initiative Page (Core Initiative 03)
+    sponsorshipPageTitle: "INICIATIVA DE PATROCINIO PASTORAL",
+    sponsorshipPageSubtitle: "Honrar el llamado. Fortalecer a la familia. Sostener la misión.<br>Conectando recursos y corazones para respaldar con dignidad a las familias pastorales.",
+
+    sMod1Title: "Adopción familiar completa",
+    sMod1Desc: "Una iglesia, persona, familia, empresa o fundación asume la totalidad del patrocinio mensual ($200 - $500) aprobado por Axios.",
+    sMod1Item1: "Compromiso inicial de 12 meses renovable",
+    sMod1Item2: "Financiamiento integral para necesidades básicas",
+    sMod1Item3: "Acompañamiento relacional y oración",
+
+    sMod2Title: "Adopción familiar compartida",
+    sMod2Desc: "Dos o más patrocinadores unen sus contribuciones mensuales para respaldar completamente a una familia pastoral calificada.",
+    sMod2Item1: "Suma de aportes pequeños o medianos",
+    sMod2Item2: "Impacto conjunto y sostenibilidad",
+    sMod2Item3: "Ideal para grupos o donantes individuales",
+
+    sMod3Title: "Marco de patrocinio<br>($200 – $500/mes)",
+    sMod3Desc: "Evaluación confidencial de necesidades para fijar entre $200 y $500 mensuales según la brecha económica y costo de vida local.",
+    sMod3Item1: "$200 - $300: Brecha moderada y apoyo complementario",
+    sMod3Item2: "$400 - $500: Brecha significativa y alto costo local",
+    sMod3Item3: "Determinación imparcial realizada por Axios",
+
+    sMod4Title: "Estándar de calificación pastoral",
+    sMod4Desc: "Verificación rigurosa de llamado, carácter bíblico (1 Timoteo 3 / Tito 1), fruto ministerial e integridad financiera y personal.",
+    sMod4Item1: "Testimonio intachable en iglesia y comunidad",
+    sMod4Item2: "Salud familiar y límites ministeriales sanos",
+    sMod4Item3: "Fruto espiritual y compromiso comprobable",
+
+    sMod5Title: "Verificación en tres niveles",
+    sMod5Desc: "Proceso obligatorio de validación independiente con la Iglesia Local, la Asociación Bautista y la Convención Bautista.",
+    sMod5Item1: "Recomendación escrita de la iglesia local",
+    sMod5Item2: "Confirmación de la Asociación Bautista regional",
+    sMod5Item3: "Verificación de la Convención Bautista nacional",
+
+    sMod6Title: "Administración y transparencia fiduciaria",
+    sMod6Desc: "Axios recibe, administra y transfiere directamente los fondos para proteger al donante y al pastor sin intermediarios.",
+    sMod6Item1: "Flujo protegido: Patrocinador → Axios → Pastor",
+    sMod6Item2: "Protección contra control o presiones indebidas",
+    sMod6Item3: "Rendición de cuentas e informes fiduciarios",
+
+    sMod7Title: "Acompañamiento relacional y oración",
+    sMod7Desc: "Construcción de relaciones significativas mediante oración constante, actualizaciones trimestrales y cartas de aliento.",
+    sMod7Item1: "Peticiones de oración periódicas del ministerio",
+    sMod7Item2: "Mensajes de aliento en fechas especiales",
+    sMod7Item3: "Videollamada anual opcional entre patrocinador y familia",
+
+    sMod8Title: "Evaluación y recertificación anual",
+    sMod8Desc: "Revisión de 12 meses para determinar la renovación, ajuste o graduación del patrocinio según la evolución financiera.",
+    sMod8Item1: "Continuación: si la brecha y calificación persisten",
+    sMod8Item2: "Ajuste: adaptación del monto a la nueva realidad",
+    sMod8Item3: "Graduación: cuando la iglesia logra la autosostenibilidad",
+
+    sMod9Title: "Perfil digno de patrocinio",
+    sMod9Desc: "Presentación confidencial de la familia pastoral con su historia, llamado, necesidades de oración y región de servicio.",
+    sMod9Item1: "Tratamiento confidencial con honra y dignidad",
+    sMod9Item2: "Historia ministerial y contexto de servicio",
+    sMod9Item3: "Sello de acreditación \"Pastor Verificado Axios\"",
+
     // Projects Overview & Ecuador Subpage
     projectsPageTitle: "PROYECTOS REGIONALES EN LATINOAMÉRICA",
     projectsPageSubtitle: "Empoderando a familias pastorales y respaldando iniciativas de convenciones bautistas locales en 20 naciones de América Latina.",

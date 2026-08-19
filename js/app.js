@@ -170,6 +170,14 @@ function initApp() {
     });
   }
 
+  const initCard3 = document.querySelector('#init-card-3');
+  if (initCard3) {
+    initCard3.style.cursor = 'pointer';
+    initCard3.addEventListener('click', () => {
+      navigateTo('initiative-sponsorship');
+    });
+  }
+
   // Initiatives Submenu items click listener
   document.querySelectorAll('.submenu-item').forEach((item, index) => {
     item.addEventListener('click', (e) => {
@@ -179,6 +187,8 @@ function initApp() {
         navigateTo('initiative-health');
       } else if (index === 1) {
         navigateTo('initiative-theological');
+      } else if (index === 2) {
+        navigateTo('initiative-sponsorship');
       } else {
         navigateTo('program');
       }
