@@ -323,6 +323,19 @@ body {
   min-height: 100vh;
 }
 
+/* Pastor Family Adoption Initiative Page Background */
+#initiative-sponsorship {
+  position: relative;
+  background-image: linear-gradient(180deg, rgba(7, 13, 25, 0.74) 0%, rgba(14, 23, 42, 0.88) 50%, rgba(7, 13, 25, 0.96) 100%), url('../assets/program-sponsorship.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 140px;
+  padding-bottom: 100px;
+  min-height: 100vh;
+}
+
 /* Single Line Section Title - Auto Scaled to Fit Container Bounds */
 .single-line-title {
   white-space: nowrap !important;
