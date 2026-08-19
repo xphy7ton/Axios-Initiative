@@ -106,6 +106,11 @@ function navigateTo(pageId, updateHash = true) {
     }
   });
 
+  // Close all navigation dropdown menus upon navigation
+  document.querySelectorAll('.nav-dropdown-wrapper').forEach(wrapper => {
+    wrapper.classList.remove('active');
+  });
+
   if (updateHash) {
     if (pageId === 'home') {
       history.replaceState(null, '', window.location.pathname + window.location.search);
