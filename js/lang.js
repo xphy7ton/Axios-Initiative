@@ -656,7 +656,7 @@ const translations = {
     faith6Desc: "Creemos en la resurrección de todos, la bienaventuranza eterna de los redimidos y la justicia divina final.",
 
     governanceTitle: "Gobernanza e integridad fiduciaria",
-    governanceDesc: "Dirigida por un Consejo Directivo dedicado que opera bajo strictly políticas de conflicto de intereses, transparencia financiera y ausencia de beneficio privado.",
+    governanceDesc: "Dirigida por una Junta Directiva dedicada que opera bajo estrictas políticas de conflicto de intereses, transparencia financiera y la prohibición absoluta de beneficio privado. Sus miembros ejercen su función impulsados por una pasión compartida por la atención pastoral.",
 
     // Our Team Section
     badgeOurTeam: "Liderazgo & Gobernanza",
@@ -702,7 +702,7 @@ const translations = {
     // Health Initiative Page (Mental, Emotional and Spiritual Health)
     backToInitiatives: "← Volver a Iniciativas",
     healthPageTitle: "SALUD MENTAL, EMOCIONAL Y ESPIRITUAL",
-    healthPageSubtitle: "Atención integral, consejería confidencial y programas especializados diseñados para restaurar y sostener a las familias pastorales.",
+    healthPageSubtitle: "Atención integral, consejería confidencial y programas especializados<br>diseñados para restaurar y sostener a las familias pastorales.",
 
     hMod1Title: "Conferencias Axios",
     hMod1Desc: "Conferencias anuales y regionales enfocadas en la salud mental, emocional y espiritual.",
