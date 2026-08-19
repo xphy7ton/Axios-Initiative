@@ -212,29 +212,31 @@ const translations = {
     badgeOurTeam: "Leadership & Governance",
     titleOurTeam: "Our Team",
     subtitleOurTeam: "Dedicated leaders, pastors, and servants walking alongside pastoral families across Latin America.",
-    tagPresidentRole: "Fundador & Director Ejecutivo",
-    tagLeadershipBoard: "Junta Directiva",
+    aboutSubtitle: "AXIOS did not start with an organization. It started with a burden in the heart.",
+    aboutMissionTitle: "Caring for the Heart Behind the Calling",
+    tagPresidentRole: "Founder & Executive Director",
+    tagLeadershipBoard: "Board of Directors",
     presidentName: "Pr. Lielson Penido",
-    presidentTitle: "Fundador & Director Ejecutivo de AXIOS Initiative",
-    presidentBio: `<p>La historia de Lielson Penido ha estado profundamente marcada por la gracia de Dios, la familia y el ministerio. Adoptado desde pequeño y nacido en el contexto de una familia pastoral, creció en Brasil hasta los 12 años y después se mudó con sus padres a Ecuador como misioneros de la Convención Bautista de Brasil, donde comenzó a formarse su amor por Dios, la Iglesia y el servicio cristiano.</p>
-<p>Más tarde vivió en Nueva York, donde estudió Ciencias de la Computación durante dos años, antes de responder al llamado de Dios al ministerio y continuar su formación en el Seminario Bautista del Sur de Brasil, en Río de Janeiro, donde fue formado teológicamente para el ministerio pastoral. También realizó una maestría de dos años en Dirección Orquestal, integrando su formación musical con su llamado al servicio en la adoración, y obtuvo un certificado en evangelismo en la Escuela de Billy Graham, fortaleciendo su compromiso con la proclamación del evangelio.</p>
-<p>En 1995 contrajo matrimonio con Verónica Penido, su compañera de vida y ministerio. Juntos son padres de dos hijos, Victoria y Lukas, y han dedicado gran parte de su vida a servir a la Iglesia en diferentes culturas y contextos.</p>
-<p>A lo largo de casi tres décadas de ministerio, Lielson ha servido como pastor de adoración en Tampa y Lake Worth, Florida; plantador de iglesias; misionero durante diez años en Europa; y capellán empresarial. Actualmente también sirve como Director de Lenguas de la Asociación Bautista de Tampa Bay, trabajando de cerca con pastores, iglesias y líderes de diferentes contextos culturales.</p>
-<p>Haber crecido en una familia pastoral, formar su propia familia en medio del ministerio y caminar durante décadas al lado de pastores en diferentes países le ha permitido conocer tanto la belleza del llamado como el peso que muchas veces se lleva en silencio.</p>
-<p>De esa historia, experiencia y profunda carga por el bienestar de los pastores y sus familias nace su compromiso con AXIOS Initiative: ayudar a cuidar, fortalecer y honrar a quienes han dedicado sus vidas a cuidar de otros.</p>`,
-    presidentQuote: "“Porque quienes sirven… son dignos.”",
+    presidentTitle: "Founder & Executive Director of AXIOS Initiative",
+    presidentBio: `<p>Lielson Penido's life story has been deeply marked by God's grace, family, and ministry. Adopted as a child into a pastoral family, he grew up in Brazil until age 12, when his parents moved to Ecuador as missionaries with the Brazilian Baptist Convention. It was there that his love for God, the Church, and Christian service began to take shape.</p>
+<p>He later lived in New York, studying Computer Science for two years before responding to God's call to ministry. He continued his education at the South Brazil Baptist Theological Seminary in Rio de Janeiro, where he received his theological training for pastoral ministry. He also completed a two-year Master's degree in Orchestral Conducting, integrating his musical background with his calling to worship ministry, and earned a certificate in evangelism from the Billy Graham School, strengthening his commitment to gospel proclamation.</p>
+<p>In 1995, he married Verónica Penido, his partner in life and ministry. Together they are parents to two children, Victoria and Lukas, and have dedicated much of their lives to serving the Church across various cultures and contexts.</p>
+<p>Across nearly three decades of ministry, Lielson has served as a worship pastor in Tampa and Lake Worth, Florida; a church planter; a missionary for ten years in Europe; and a corporate chaplain. He currently serves as the Language Director for the Tampa Bay Baptist Association, working closely with pastors, churches, and leaders from diverse cultural backgrounds.</p>
+<p>Growing up in a pastoral family, raising his own family in full-time ministry, and walking alongside pastors for decades across multiple countries has given him firsthand experience with both the beauty of the calling and the quiet burdens often carried in silence.</p>
+<p>Out of this story, experience, and deep passion for the well-being of pastors and their families, AXIOS Initiative was born: to care for, strengthen, and honor those who have dedicated their lives to caring for others.</p>`,
+    presidentQuote: "“Because those who serve… are worthy.”",
     roleCare: "Pastoral Care",
     member2Name: "Pr. Francisco Juarbe, ThD",
-    member2Title: "Director de Cuidado Pastoral – Latinoamérica y el Caribe",
-    member2Bio: "Pastor, mentor y educador cristiano con amplia experiencia en cuidado pastoral, plantación de iglesias y formación de líderes. Sirve en Axios Initiative acompañando y fortaleciendo a pastores y líderes en Latinoamérica y el Caribe.",
+    member2Title: "Director of Pastoral Care – Latin America & Caribbean",
+    member2Bio: "Pastor, mentor, and Christian educator with extensive experience in pastoral care, church planting, and leadership development. Serves with Axios Initiative accompanying and strengthening pastors and leaders across Latin America and the Caribbean.",
     roleTheology: "Theological Training",
     member3Name: "Pr. Mario Figueroa",
     member3Title: "Board Secretary",
-    member3Bio: "Mario ha estado sirviendo como pastor en Tampa desde 2020. En 2023, con un fuerte sentido de llamado a establecer una iglesia multicultural para mantener la unidad generacional en familias bilingües, dejó su carrera de más de 17 años en la industria de la salud para asistir al Sovereign Grace Churches Pastors College en Louisville, KY. Mario luego regresó a Florida para plantar Vine Church Tampa.\n\nMario y su esposa, Diana, nacieron en Puerto Rico y se salvaron durante su juventud adulta. Han estado felizmente casados desde 2011 y tienen dos hijas, Anasofía y Mila. Como familia, disfrutan hablando, haciendo bromas, así como jugando juegos de mesa y noches de cine (especialmente películas de superhéroes).",
+    member3Bio: "Mario has been serving as a pastor in Tampa since 2020. In 2023, with a strong sense of calling to plant a multicultural church to preserve generational unity in bilingual families, he left his 17-year career in healthcare to attend the Sovereign Grace Churches Pastors College in Louisville, KY. Mario then returned to Florida to plant Vine Church Tampa.\n\nMario and his wife, Diana, were born in Puerto Rico and came to faith as young adults. They have been happily married since 2011 and have two daughters, Anasofía and Mila. As a family, they enjoy talking, sharing jokes, playing board games, and movie nights (especially superhero movies).",
     roleOperations: "Operations & Alliances",
     member4Name: "Pr. David Endara",
     member4Title: "Board Treasurer",
-    member4Bio: "Pastor y miembro de la Junta Directiva de Axios Initiative, supervisando la gestión y transparencia financiera de la organización.",
+    member4Bio: "Pastor and member of the Board of Directors of Axios Initiative, overseeing the organization's financial management and transparency.",
 
     // Initiatives Page
     programsTitle: "INITIATIVES",
@@ -584,6 +586,7 @@ const translations = {
     proj3Donors: "Raised by 42 people",
 
     btnViewProjectDetail: "View Project & Documentary →",
+    btnViewEcuadorDetails: "View Ecuador Project Details →",
 
     // Contact Page
     badgeGetInTouch: "Get In Touch",
@@ -627,7 +630,58 @@ const translations = {
     footerQuickLinks: "Quick navigation",
     footerLegal: "Legal & Compliance",
     footer501c3: "501(c)(3) Public Charity • State of Florida",
-    footerCopyright: "© 2026 AXIOS INITIATIVE. All rights reserved."
+    footerCopyright: "© 2026 AXIOS INITIATIVE. All rights reserved.",
+
+    // Our Story Modal (EN)
+    historyModalTitle: "Our Story",
+    historyP1: "For nearly 30 years of pastoral ministry, I have had the privilege of knowing the life of a pastor from many different perspectives.",
+    historyP2: "I am a pastor, but I am also a pastor's son, a pastor's nephew, a pastor's son-in-law, and a pastor's cousin. Pastoral ministry has not been merely part of my profession or calling; it has been part of my story, my family, and my life.",
+    historyP3: "I have seen up close the beauty of ministry. But I have also seen its cost.",
+    historyP4: "I have seen the joy of a growing church, lives transformed, people coming to Christ, and families restored. But I have also seen tears that never reached the pulpit, burdens carried in silence, pastoral families going through difficult seasons, and men and women of God trying to stay strong while weary on the inside.",
+    historyP5: "And over the years, one question beat louder and louder in my heart:",
+    historyQ: "Who cares for those who care?",
+    historySubhead1: "We talk a lot about healthy churches. But what about the pastor?",
+    historyP6: "For years we have talked, rightly so, about the importance of building healthy churches. We have conferences, books, growth models, and evangelism strategies. All of that is important.",
+    historyP7: "But there is a conversation we still need to have in greater depth: <strong>We cannot talk about healthy churches without also talking about healthy pastors.</strong>",
+    historyB1: "Behind every sermon there is a person.",
+    historyB2: "Behind every pastor there is a husband, a wife, a father, a mother, a child.",
+    historyB3: "Behind the leader who listens to everyone, there is a heart that needs to be heard.",
+    historyB4: "Behind the one who prays for others, there is someone who also needs prayer.",
+    historyP8: "The well-being of the pastor and their family is not secondary to the health of the Church. It is part of it.",
+    historySubhead2: "A BURDEN THAT CROSSED BORDERS",
+    historyP9: "My understanding of this reality deepened even further during the years I served as a missionary in Europe. Serving in different cultural contexts allowed me to meet pastors, leaders, and churches facing distinct realities, but with strikingly similar struggles.",
+    historyP10: "Later, serving as part of the Tampa Bay Baptist Association team, I continued to have the opportunity to walk closely alongside pastors and their families.",
+    historyB5: "I have heard their stories and seen their victories.",
+    historyB6: "But I have also seen their weariness and the loneliness of leadership.",
+    historyB7: "I have known their financial pressures, conflicts, and the unseen emotional strain.",
+    historyP11: "Every conversation deepened a conviction: <strong>We have to do something.</strong>",
+    historySubhead3: "WHEN THE BURDEN BECAME A CONVICTION",
+    historyP12: "But we didn't want to build an initiative based solely on our own experiences. That is why we launched a research survey among pastors across nearly 20 countries in Latin America:",
+    historyB8: "We needed to listen carefully to their real voice.",
+    historyB9: "We needed to understand the family and emotional pressures carried in silence.",
+    historyB10: "We needed to know what was happening beyond our own context.",
+    historySubhead4: "HOW AXIOS INITIATIVE WAS BORN",
+    historyP13: "Out of conversations, prayer, and research, AXIOS Initiative was born. Together with ministry partners who share this same conviction, we decided to turn our concern into action through 4 strategic pillars:",
+    historyCard1Title: "Preventive Care",
+    historyCard1Desc: "We care for and walk alongside pastors before they reach emotional or ministerial burnout.",
+    historyCard2Title: "Safe Fellowship",
+    historyCard2Desc: "We build support and peer networks to prevent isolation in leadership.",
+    historyCard3Title: "Holistic Renewal",
+    historyCard3Desc: "We strengthen spiritual and emotional life before energy is depleted.",
+    historyCard4Title: "Family Support",
+    historyCard4Desc: "We remind pastoral families that they matter and are worthy of honor.",
+    historySubhead5: "WHY AXIOS?",
+    historyP14: "The Greek word <strong>AXIOS</strong> communicates the idea of being worthy, valuable, deserving of honor. In this word we found an extraordinary expression of what is in our heart.",
+    historyVerse: "“Let the elders who rule well be considered worthy of double honor…” — 1 Timothy 5:17",
+    historySubhead6: "OUR DREAM",
+    historyDream1Title: "Healthy Pastors & Churches",
+    historyDream1Desc: "We dream of healthy pastors leading spiritually healthy churches.",
+    historyDream2Title: "Strong Marriages",
+    historyDream2Desc: "We dream of pastoral marriages and children who remember ministry with gratitude.",
+    historyDream3Title: "Fearless Leadership",
+    historyDream3Desc: "We dream of pastors who can ask for help in time without fear of judgment.",
+    historyDream4Title: "Bridges of Support",
+    historyDream4Desc: "We dream of U.S. churches walking alongside pastoral families in Latin America."
   },
 
   es: {
@@ -661,7 +715,7 @@ const translations = {
     tagPastor: "Cuidamos al pastor.",
     tagFamily: "Fortalecemos a la familia.",
     tagChurch: "Servimos a la Iglesia.",
-    heroCtaPrimary: "Iniciativas",
+    heroCtaPrimary: "Adopte un proyecto",
     heroCtaSecondary: "Adopte un pastor",
 
     // Meaning of Axios
@@ -1296,6 +1350,7 @@ const translations = {
     proj3Donors: "Recaudado por 42 personas",
 
     btnViewProjectDetail: "Ver Proyecto y Documental →",
+    btnViewEcuadorDetails: "Ver detalles del proyecto de Ecuador →",
 
     // Contact Page
     badgeGetInTouch: "Ponte en contacto",
@@ -1339,6 +1394,57 @@ const translations = {
     footerQuickLinks: "Navegación rápida",
     footerLegal: "Legal y Cumplimiento",
     footer501c3: "Entidad 501(c)(3) Sin Fines de Lucro • Estado de Florida",
-    footerCopyright: "© 2026 AXIOS INITIATIVE. Todos los derechos reservados."
+    footerCopyright: "© 2026 AXIOS INITIATIVE. Todos los derechos reservados.",
+
+    // Our Story Modal (ES)
+    historyModalTitle: "Nuestra Historia",
+    historyP1: "Durante casi 30 años de ministerio pastoral, he tenido el privilegio de conocer la vida del pastor desde diferentes perspectivas.",
+    historyP2: "Soy pastor, pero también soy hijo de pastor, sobrino de pastores, yerno de pastor y primo de pastores. El ministerio pastoral no ha sido simplemente parte de mi profesión o de mi llamado; ha sido parte de mi historia, de mi familia y de mi vida.",
+    historyP3: "He visto de cerca la belleza del ministerio. Pero también he visto su precio.",
+    historyP4: "He visto la alegría de una iglesia que crece, vidas transformadas, personas llegando a Cristo y familias restauradas. Pero también he visto lágrimas que nunca llegaron al púlpito, preocupaciones llevadas en silencio, familias pastorales atravesando temporadas difíciles y hombres y mujeres de Dios intentando permanecer fuertes mientras por dentro estaban cansados.",
+    historyP5: "Y con el paso de los años, una pregunta comenzó a latir cada vez más fuerte en mi corazón:",
+    historyQ: "¿Quién cuida a quienes cuidan?",
+    historySubhead1: "Mucho hablamos de iglesias saludables. ¿Pero qué sucede con el pastor?",
+    historyP6: "Durante años hemos hablado, correctamente, acerca de la importancia de construir iglesias saludables. Tenemos conferencias, libros, modelos de crecimiento y estrategias de evangelismo. Todo eso es importante.",
+    historyP7: "Pero existe una conversación que todavía necesitamos tener con mayor profundidad: <strong>No podemos hablar de iglesias saludables sin hablar también de pastores saludables.</strong>",
+    historyB1: "Detrás de cada sermón existe una persona.",
+    historyB2: "Detrás de cada pastor existe un esposo, una esposa, un padre, una madre, un hijo.",
+    historyB3: "Detrás del líder que escucha a todos, existe un corazón que necesita ser escuchado.",
+    historyB4: "Detrás de quien ora por otros existe alguien que también necesita que oren por él.",
+    historyP8: "El bienestar del pastor y de su familia no es algo secundario a la salud de la Iglesia. Es parte de ella.",
+    historySubhead2: "UNA CARGA QUE CRUZÓ FRONTERAS",
+    historyP9: "Mi comprensión de esta realidad se profundizó aún más durante los años que serví como misionero en Europa. Servir en diferentes contextos culturales me permitió conocer pastores, líderes e iglesias enfrentando realidades distintas, pero con luchas sorprendentemente similares.",
+    historyP10: "Más tarde, sirviendo como parte del equipo de la Asociación Bautista de Tampa Bay, continué teniendo la oportunidad de caminar cerca de pastores y sus familias.",
+    historyB5: "He escuchado sus historias y he visto sus victorias.",
+    historyB6: "Pero también he visto su cansancio y la soledad del liderazgo.",
+    historyB7: "He conocido sus presiones económicas, conflictos y el desgaste emocional que nadie ve.",
+    historyP11: "Cada conversación fue aumentando una convicción: <strong>Tenemos que hacer algo.</strong>",
+    historySubhead3: "CUANDO LA CARGA SE CONVIRTIÓ EN CONVICCIÓN",
+    historyP12: "Pero no queríamos construir una iniciativa solamente alrededor de nuestras propias experiencias. Por eso comenzamos una investigación con pastores de aproximadamente 20 países de América Latina:",
+    historyB8: "Necesitábamos escuchar atentamente su voz real.",
+    historyB9: "Necesitábamos entender las presiones familiares y emocionales que se llevan en silencio.",
+    historyB10: "Necesitábamos saber qué estaba ocurriendo más allá de nuestro propio contexto.",
+    historySubhead4: "ASÍ NACIÓ AXIOS INITIATIVE",
+    historyP13: "De conversaciones, oración e investigación nació AXIOS Initiative. Junto con compañeros de ministerio que comparten esta misma convicción, decidimos transformar nuestra preocupación en acción a través de 4 pilares estratégicos:",
+    historyCard1Title: "Cuidado Preventivo",
+    historyCard1Desc: "Cuidamos y acompañamos al pastor antes de llegar al agotamiento emocional o ministerial.",
+    historyCard2Title: "Compañerismo Seguro",
+    historyCard2Desc: "Creamos redes de apoyo y acompañamiento para prevenir el aislamiento en el liderazgo.",
+    historyCard3Title: "Renovación Integral",
+    historyCard3Desc: "Fortalecemos la vida espiritual y emocional antes de que las fuerzas se terminen.",
+    historyCard4Title: "Respaldo a la Familia",
+    historyCard4Desc: "Le recordamos a la familia pastoral que ellos también importan y son dignos de honra.",
+    historySubhead5: "¿POR QUÉ AXIOS?",
+    historyP14: "La palabra griega <strong>AXIOS</strong> comunica la idea de ser digno, valioso, merecedor de honor. Encontramos en esta palabra una expresión extraordinaria de aquello que está en nuestro corazón.",
+    historyVerse: "“Los ancianos que gobiernan bien, sean tenidos por dignos de doble honor…” — 1 Timoteo 5:17",
+    historySubhead6: "NUESTRO SUEÑO",
+    historyDream1Title: "Pastores & Iglesias Sanas",
+    historyDream1Desc: "Soñamos con pastores saludables liderando iglesias espiritualmente saludables.",
+    historyDream2Title: "Matrimonios Fuertes",
+    historyDream2Desc: "Soñamos con matrimonios e hijos pastorales que recuerden el ministerio con gratitud.",
+    historyDream3Title: "Liderazgo sin Temor",
+    historyDream3Desc: "Soñamos con pastores que puedan pedir ayuda a tiempo sin temor a ser juzgados.",
+    historyDream4Title: "Puentes de Apoyo",
+    historyDream4Desc: "Soñamos con iglesias de EE.UU. caminando junto a familias pastorales de América Latina."
   }
 };
