@@ -12,6 +12,9 @@ const translations = {
     btnRequestHelp: "Request Help",
     projectSubmenuTitle: "Latin American Pastoral Projects",
     selectLanguageTitle: "Select Language",
+    langLabelEs: "Spanish",
+    langLabelEn: "English",
+    langLabelPt: "Portuguese",
 
     // Help Request Modal
     badgeHelpConfidential: "100% Confidential Care",
@@ -696,6 +699,9 @@ const translations = {
     btnRequestHelp: "Solicitar Ayuda",
     projectSubmenuTitle: "Proyectos Pastorales en Latinoamérica",
     selectLanguageTitle: "Seleccionar Idioma",
+    langLabelEs: "Español",
+    langLabelEn: "Inglés",
+    langLabelPt: "Portugués",
 
     // Help Request Modal
     badgeHelpConfidential: "Atención 100% Confidencial",
@@ -1461,6 +1467,9 @@ const translations = {
     btnRequestHelp: "Solicitar Apoio",
     projectSubmenuTitle: "Projetos Pastorais na América Latina",
     selectLanguageTitle: "Selecionar Idioma",
+    langLabelEs: "Espanhol",
+    langLabelEn: "Inglês",
+    langLabelPt: "Português",
 
     // Help Request Modal
     badgeHelpConfidential: "Atendimento 100% Confidencial",

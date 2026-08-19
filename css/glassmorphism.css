@@ -326,10 +326,10 @@
 
 .floating-lang-header {
   font-size: 0.72rem;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--primary-orange-light);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.04em;
   padding: 4px 10px 8px 10px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   margin-bottom: 4px;
@@ -339,7 +339,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 10px 12px;
+  padding: 10px 14px;
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 12px;
@@ -361,29 +361,20 @@
   background: linear-gradient(135deg, rgba(227, 83, 9, 0.85) 0%, rgba(194, 65, 12, 0.95) 100%) !important;
   border-color: #FF6B1F !important;
   color: #FFFFFF !important;
-  font-weight: 700;
 }
 
-.flag-emoji {
-  font-size: 1.25rem;
-}
-
-.lang-info {
-  display: flex;
-  flex-direction: column;
+.flag-img-popup {
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  flex-shrink: 0;
 }
 
 .lang-name {
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 400 !important;
+  letter-spacing: 0.02em;
   line-height: 1.2;
-}
-
-.lang-native {
-  font-size: 0.72rem;
-  color: var(--text-muted);
-}
-
-.floating-lang-opt.active .lang-native {
-  color: rgba(255, 255, 255, 0.8);
 }
