@@ -30,40 +30,39 @@ async function createPresentation() {
 
   // Header Logo
   if (fs.existsSync(logoHeader)) {
-    slide1.addImage({ path: logoHeader, x: 0.6, y: 0.5, w: 2.8, h: 0.65 });
+    slide1.addImage({ path: logoHeader, x: 0.5, y: 0.4, w: 2.8, h: 0.65 });
   }
 
   // 501(c)(3) Badge
   slide1.addText('ORGANIZACIÓN CRISTIANA 501(c)(3) • ESTADO DE FLORIDA', {
-    x: 0.6, y: 1.4, w: 6.2, h: 0.35,
-    fontFace: 'Arial', fontSize: 10, bold: true, color: ORANGE_LIGHT,
+    x: 0.5, y: 1.25, w: 5.6, h: 0.35,
+    fontFace: 'Arial', fontSize: 9.5, bold: true, color: ORANGE_LIGHT,
     fill: { color: '1A2744' }, align: 'left', inset: 0.08
   });
 
   // Slide 1 Title
   slide1.addText('Restaurando la dignidad,\nHonrando el llamado,\nInspirando esperanza', {
-    x: 0.6, y: 1.9, w: 6.2, h: 1.6,
-    fontFace: 'Arial', fontSize: 28, bold: true, color: TEXT_WHITE,
-    lineSpacing: 34
+    x: 0.5, y: 1.75, w: 5.8, h: 1.6,
+    fontFace: 'Arial', fontSize: 26, bold: true, color: TEXT_WHITE,
+    lineSpacing: 32
   });
 
   // Slide 1 Subtitle
   slide1.addText('Existimos para honrar, fortalecer y acompañar a pastores y sus familias, brindándoles atención integral, restauración, capacitación y apoyo financiero.', {
-    x: 0.6, y: 3.6, w: 6.2, h: 1.0,
-    fontFace: 'Arial', fontSize: 13, color: TEXT_BODY,
-    lineSpacing: 18
+    x: 0.5, y: 3.45, w: 5.8, h: 1.1,
+    fontFace: 'Arial', fontSize: 12, color: TEXT_BODY,
+    lineSpacing: 17
   });
 
-  // Hero Image (Right Side)
+  // Hero Image (Right Side - Properly fits within 13.33 x 7.5 canvas with margin)
   if (fs.existsSync(programSponsorshipImg)) {
     slide1.addImage({
       path: programSponsorshipImg,
-      x: 7.1, y: 0.6, w: 5.6, h: 4.0,
-      rounding: true
+      x: 6.6, y: 0.4, w: 6.2, h: 4.25
     });
   }
 
-  // 4 Pillars Box Grid at bottom of Slide 1
+  // 4 Pillars Box Grid at bottom of Slide 1 (Perfectly aligned across 13.33" width)
   const pillars = [
     { title: 'CUIDAR', desc: 'Salud mental y emocional pastoral.' },
     { title: 'RESTAURAR', desc: 'Retiros y renovación espiritual.' },
@@ -72,22 +71,25 @@ async function createPresentation() {
   ];
 
   pillars.forEach((p, idx) => {
-    const xPos = 0.6 + (idx * 3.05);
+    const boxW = 2.88;
+    const gap = 0.25;
+    const xPos = 0.5 + idx * (boxW + gap);
+    
     slide1.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
-      x: xPos, y: 5.0, w: 2.85, h: 1.8,
+      x: xPos, y: 4.9, w: boxW, h: 2.1,
       fill: { color: CARD_BG },
       line: { color: ORANGE_PRIMARY, width: 1.5 },
       rectRadius: 0.1
     });
 
     slide1.addText(p.title, {
-      x: xPos + 0.15, y: 5.25, w: 2.55, h: 0.35,
-      fontFace: 'Arial', fontSize: 14, bold: true, color: ORANGE_LIGHT
+      x: xPos + 0.12, y: 5.1, w: boxW - 0.24, h: 0.35,
+      fontFace: 'Arial', fontSize: 13, bold: true, color: ORANGE_LIGHT, align: 'center'
     });
 
     slide1.addText(p.desc, {
-      x: xPos + 0.15, y: 5.65, w: 2.55, h: 0.9,
-      fontFace: 'Arial', fontSize: 11, color: TEXT_BODY
+      x: xPos + 0.12, y: 5.5, w: boxW - 0.24, h: 1.3,
+      fontFace: 'Arial', fontSize: 10.5, color: TEXT_BODY, align: 'center'
     });
   });
 
