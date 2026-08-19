@@ -2603,11 +2603,11 @@ body {
   margin: 0 !important;
 }
 
-/* Card Description Text Justification (Preserving Bullet Lists) */
+/* Card Description Text Alignment (Centered) */
 .health-card-desc,
 .portrait-card-body p,
 .program-portrait-card p,
 .pillar-desc {
-  text-align: justify !important;
+  text-align: center !important;
 }
 

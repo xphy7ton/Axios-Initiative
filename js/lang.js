@@ -774,7 +774,7 @@ const translations = {
     tMod3Item2: "Sistemas de evangelismo y discipulado",
     tMod3Item3: "Reestructuración de liderazgo y alcance comunitario",
 
-    tMod4Title: "Iniciativa<br>de plantación de iglesias",
+    tMod4Title: "Iniciativa de<br>Plantación de Iglesias",
     tMod4Desc: "Preparando a los futuros plantadores de iglesias a través de evaluación, coaching, residencia, estrategia de lanzamiento y recaudación de fondos.",
     tMod4Item1: "Evaluación, coaching y residencia pastoral",
     tMod4Item2: "Estrategia de lanzamiento y recaudación de fondos",
