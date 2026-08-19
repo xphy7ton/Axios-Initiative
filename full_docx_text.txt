@@ -1,0 +1,166 @@
+﻿<w:tab w:val="left" w:pos="4185"/><w:tab w:val="center" w:pos="5544"/></w:tabs><w:spacing w:after="0" w:line="240" w:lineRule="auto"/></w:pPr><w:r><w:rPr><w:b/><w:color w:val="C79A3B"/><w:sz w:val="32"/></w:rPr><w:tab/></w:r><w:r w:rsidR="00E02CA6" w:rsidRPr="00E02CA6"><w:rPr><w:b/><w:bCs/><w:color w:val="C79A3B"/><w:sz w:val="32"/></w:rPr><w:t>Core Initiative 03
+Pastor Family Adoption Initiative
+Honor the calling. Strengthen the family. Sustain the mission.
+MONTHLY FINANCIAL ADOPTION WINDOW$200 - $500
+Through the Axios Pastor Family Adoption Initiative, individuals and churches can provide $200-$500 in monthly financial support to qualified pastoral families. Every participating pastor undergoes Axios' pastoral, denominational, ministry, character, and financial verification process. Axios determines the appropriate sponsorship amount based on the family's verified financial need and local cost of living.You provide the partnership. Axios provides the verification and accountability. Together, we strengthen faithful shepherds and their families.
+OUR PROCESS AND COMMIMENT
+IDENTIFY  â†’  VERIFY  â†’  CONNECT  â†’  SUPPORT  â†’  STRENGTHEN
+1. Vision &amp; Purpose
+The Axios Pastor Family Adoption Initiative connects churches and individuals with faithful Baptist pastors and their families who demonstrate biblical character, fruitful ministry, denominational accountability, and verified financial need. Axios serves as the trusted bridge: identifying candidates, verifying qualifications, determining the appropriate level of support, matching sponsors, administering funds, and maintaining ongoing accountability.
+2. Guiding Principles
+Dignity: Pastors are ministry partners, not charity cases. The initiative honors faithful shepherds already doing the work of ministry.
+Partnership: Sponsors participate in the pastor's ministry through prayer, encouragement, relationship, and financial support.
+Integrity: Axios provides an independent verification and accountability process for both pastors and sponsors.
+Stewardship: Financial support is based on documented need and administered through Axios.
+Sustainability: Support strengthens the pastoral household without creating unnecessary long-term dependency.
+3. Ways Churches &amp; Individuals Can Adopt
+Complete Family Adoption
+A church, individual, family, business, or foundation covers the full Axios-approved monthly sponsorship amount.
+Shared Family Adoption
+Two or more sponsors combine their commitments to fully fund one approved pastoral family.
+Church Adoption
+A local church includes a qualified pastoral family in its missions strategy and commits to monthly financial support plus prayer and relational encouragement.
+Multiple Family Adoption
+Larger churches, businesses, or foundations may sponsor multiple Axios-approved pastoral families.
+Monthly Shepherd Partner
+Individuals may contribute recurring gifts that Axios combines to complete partially funded sponsorships.
+Where Most Needed Fund
+Undesignated recurring or one-time gifts help Axios complete sponsorship gaps or maintain continuity when a sponsor transitions.
+4. Financial Adoption Framework
+The standard Axios sponsorship window is $200 to $500 per month. The pastor does not select the amount, and the donor does not determine the family's need. Axios establishes the sponsorship amount through a confidential Pastoral Family Financial Assessment.
+<w:tblPr><w:tblStyle w:val="Tablaconcuadrcula"/><w:tblW w:w="0" w:type="auto"/><w:jc w:val="center"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="5083"/><w:gridCol w:w="5083"/></w:tblGrid><w:tr w:rsidR="00CD2FFC" w14:paraId="7A937C03" w14:textId="77777777"><w:trPr><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="5083" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="15233B"/></w:tcPr><w:p w14:paraId="3478B166" w14:textId="77777777" w:rsidR="00CD2FFC" w:rsidRDefault="00000000"><w:r><w:rPr><w:b/><w:color w:val="FFFFFF"/></w:rPr><w:t>Monthly Sponsorship
+General Financial Profile
+$200
+Supplemental support where the church/family already has a meaningful portion of basic needs covered.
+$300
+Moderate verified gap affecting normal household needs.
+$400
+Significant gap between pastoral compensation and reasonable local living costs.
+$500
+Maximum standard Axios sponsorship for substantial verified need.
+The $500 maximum remains in place even when the family's verified financial gap is higher. Axios is designed to strengthen the family's financial foundation, not necessarily replace the church's responsibility or become the family's primary source of income.
+5. How Axios Determines the Sponsorship Amount
+Local cost of living: housing, food, transportation, healthcare, utilities, education, and basic family expenses.
+Family composition: spouse, children, dependents, ages, and legitimate special circumstances.
+Church compensation: salary, housing, parsonage, transportation, benefits, and other support provided by the congregation.
+Other household income: spouse income, bi-vocational employment, or other recurring support.
+Verified financial gap: the difference between reasonable household needs and available household income.
+6. Axios Qualified Pastor Standard
+Financial need alone does not qualify a pastor. Axios seeks faithful, fruitful, accountable Baptist shepherds who demonstrate a life worthy of the calling and whose families would be meaningfully strengthened through financial partnership.
+Calling &amp; Biblical Character
+A credible testimony of salvation and call to pastoral ministry.
+A life consistent with the pastoral qualifications of 1 Timothy 3:1-7 and Titus 1:5-9.
+A good testimony in the church and community.
+Integrity in marriage, finances, leadership, and personal conduct.
+No unresolved moral or disciplinary issues.
+Baptist Connection &amp; Accountability
+Actively serving a Baptist church.
+Affiliated with a recognized Baptist Convention.
+Actively connected to a local Baptist Association or equivalent regional Baptist body.
+In good standing with both the Baptist Convention and Baptist Association.
+Willing to allow Axios to verify denominational standing annually.
+Fruitfulness in Ministry
+Evidence of faithful biblical preaching and teaching.
+Disciples being developed and leaders being trained.
+Evangelism, baptisms, missions, or meaningful community engagement.
+Faithful pastoral care and perseverance.
+Evidence of church health, revitalization, multiplication, or other ministry fruit appropriate to the pastor's context.
+Fruitfulness is evaluated contextually; church size alone is not the standard.
+Verified Financial Need
+Demonstrates a legitimate financial gap.
+Provides confidential information regarding salary, household income, housing, dependents, and basic expenses.
+Discloses other recurring sponsorship or financial assistance.
+Agrees to periodic financial-needs reassessment.
+Family &amp; Personal Health
+Demonstrates commitment to a Christ-centered marriage and family life.
+Shows healthy ministry boundaries and willingness to receive pastoral care when needed.
+Participates in appropriate Axios wellness, family-care, or leadership resources when applicable.
+Accountability to Axios
+Completes annual recertification.
+Provides periodic ministry and prayer updates.
+Maintains good standing with Convention and Association.
+Discloses significant ministry, disciplinary, or financial changes.
+Participates in periodic Axios check-ins.
+7. Required Recommendations &amp; Verification
+Every candidate should normally provide at least three independent recommendations:
+Local Church: a recognized congregational leader who can speak to the pastor's character and ministry.
+Baptist Association: confirmation of active participation, reputation, and good standing.
+Baptist Convention: confirmation of denominational standing and ministry reputation.
+Optional Pastoral Peer: a respected pastor who knows the candidate personally and can provide additional perspective.
+Pastors who complete the process may receive the internal designation â€œAxios Verified Pastor,â€ indicating that Axios has reviewed doctrine, character, Baptist standing, ministry fruit, financial need, references, and accountability requirements.
+8. Suggested Selection Process
+Pastor application submitted.
+Initial eligibility screening.
+Local church recommendation received.
+Baptist Association standing verified.
+Baptist Convention standing verified.
+Pastoral references checked.
+Ministry fruit and leadership assessment completed.
+Confidential family financial assessment completed.
+Pastor/family interview conducted.
+Review by the Axios Pastoral Qualification Council.
+Sponsorship amount assigned ($200-$500 monthly).
+Approved family profile prepared for matching.
+Sponsor matched and 12-month partnership begins.
+Ongoing monitoring and annual recertification.
+9. Sponsorship Relationship
+The financial relationship should remain administered by Axios, while the ministry relationship can become personal and meaningful. Sponsors should be encouraged to know, pray for, and encourage the family without creating unhealthy control or dependency.
+Sponsor Commitments
+Make an initial 12-month financial commitment.
+Provide the agreed monthly amount through Axios.
+Pray regularly for the pastoral family.
+Respect cultural, ministry, and relational boundaries.
+Use appropriate Axios channels for financial matters.
+Avoid private financial arrangements that bypass Axios accountability.
+Pastor Commitments
+Maintain biblical and ethical standards.
+Remain accountable to the local church, Association, Convention, and Axios.
+Provide periodic ministry and prayer updates.
+Maintain transparency regarding sponsorship and material financial changes.
+Participate in annual Axios review.
+Inform Axios promptly of significant ministry or disciplinary changes.
+10. Making the Adoption Relational
+Monthly or regular prayer for the family.
+Quarterly ministry and prayer updates.
+Annual video call between sponsor and pastoral family.
+Birthday, anniversary, and Christmas encouragement.
+Opportunities for culturally appropriate mission visits.
+Special prayer during seasons of crisis or ministry transition.
+Optional support for approved education, medical, or ministry needs outside the standard monthly sponsorship.
+11. Financial Administration
+Recommended flow: Sponsor â†’ Axios Initiative â†’ Verified Pastoral Family
+Axios should receive and record contributions, administer the approved sponsorship, maintain appropriate financial controls, and distribute support according to established policies. This protects the donor, the pastor, and the integrity of the initiative while reducing the risk that a sponsor exercises inappropriate financial influence over the pastor.
+12. 12-Month Renewal &amp; Graduation
+Sponsorship should begin with a 12-month commitment and be renewable after review. Renewal is not automatic. Axios reassesses the pastor's qualifications, denominational standing, ministry situation, and continuing financial need.
+Continue: the pastor remains qualified and the financial need remains.
+Adjust: the family's need has changed and the sponsorship amount should increase or decrease within the $200-$500 window.
+Graduate: the family no longer requires sponsorship or the church has become able to provide adequate support.
+Transition: the pastor changes ministry assignment or circumstances require a planned conclusion.
+13. Suspension &amp; Review Policy
+Axios should establish written procedures for review or suspension when:
+The pastor leaves pastoral ministry.
+The pastor changes denominational affiliation in a way that affects eligibility.
+The pastor is no longer in good standing with the Convention or Association.
+Credible serious moral or misconduct allegations arise.
+Application or financial information is materially falsified.
+The pastor refuses required accountability.
+The family's financial circumstances materially change.
+An allegation should trigger an appropriate review and safeguarding process, not an automatic declaration of guilt. Axios should predetermine how family support is handled during investigations or ministry transitions.
+14. Axios Pastoral Qualification Council
+A small review council can protect the integrity of approval decisions. Suggested representation:
+Experienced Baptist pastor.
+Baptist associational or convention leader.
+Axios leadership representative.
+Missions/ministry leader.
+Financial or accountability professional.
+15. Pastor Family Sponsorship Profile
+Each approved family can have a private, dignified sponsor profile containing:
+Pastor and family introduction and photo, with permission.
+Country, city/region, church, and years in ministry.
+Convention and Association affiliation.
+Ministry story and community context.
+Evidence of ministry fruit appropriate to context.
+Prayer needs and ministry vision.
+Axios verification indicators.
+Approved monthly sponsorship amount.
+Current funding status (available, partially sponsored, fully sponsored).
