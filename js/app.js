@@ -11,6 +11,12 @@ function setLanguage(lang) {
     btn.classList.toggle('active', btn.dataset.lang === lang);
   });
 
+  // Update floating trigger label
+  const langLabel = document.getElementById('currentLangLabel');
+  if (langLabel) {
+    langLabel.textContent = lang.toUpperCase();
+  }
+
   // Apply translations to all DOM elements with data-i18n attribute
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.dataset.i18n;
@@ -154,13 +160,32 @@ function initApp() {
     });
   });
 
+  // Floating Language Widget Toggle
+  const floatingWidget = document.getElementById('floatingLangWidget');
+  const floatingTrigger = document.getElementById('floatingLangTrigger');
+
+  if (floatingTrigger && floatingWidget) {
+    floatingTrigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      floatingWidget.classList.toggle('active');
+    });
+  }
+
   // Language buttons
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const lang = btn.dataset.lang;
       setLanguage(lang);
       localStorage.setItem('axios_lang', lang);
+      if (floatingWidget) floatingWidget.classList.remove('active');
     });
+  });
+
+  // Close floating lang popup when clicking outside
+  document.addEventListener('click', (e) => {
+    if (floatingWidget && !floatingWidget.contains(e.target)) {
+      floatingWidget.classList.remove('active');
+    }
   });
 
   // Header scroll effect

@@ -87,12 +87,6 @@
       </nav>
 
       <div class="header-actions">
-        <!-- Language Switcher -->
-        <div class="lang-switcher">
-          <button class="lang-btn active" data-lang="en">EN</button>
-          <button class="lang-btn" data-lang="es">ES</button>
-        </div>
-
         <!-- Donation Button -->
         <a href="#" class="glass-btn glass-btn-primary trigger-donation-modal" data-i18n="btnDonate">Donación General</a>
       </div>
@@ -2609,6 +2603,39 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- FLOATING BOTTOM-RIGHT LANGUAGE SELECTOR POPUP -->
+  <div class="floating-lang-widget" id="floatingLangWidget">
+    <button class="floating-lang-trigger" id="floatingLangTrigger" aria-label="Select Language">
+      <span class="lang-globe-icon">🌐</span>
+      <span class="lang-current-code" id="currentLangLabel">ES</span>
+      <span class="lang-chevron">▲</span>
+    </button>
+    <div class="floating-lang-menu" id="floatingLangMenu">
+      <div class="floating-lang-header" data-i18n="selectLanguageTitle">Seleccionar Idioma</div>
+      <button class="floating-lang-opt lang-btn" data-lang="es">
+        <span class="flag-emoji">🇪🇸</span>
+        <div class="lang-info">
+          <span class="lang-name">Español</span>
+          <span class="lang-native">Spanish</span>
+        </div>
+      </button>
+      <button class="floating-lang-opt lang-btn" data-lang="en">
+        <span class="flag-emoji">🇺🇸</span>
+        <div class="lang-info">
+          <span class="lang-name">English</span>
+          <span class="lang-native">Inglés</span>
+        </div>
+      </button>
+      <button class="floating-lang-opt lang-btn" data-lang="pt">
+        <span class="flag-emoji">🇧🇷</span>
+        <div class="lang-info">
+          <span class="lang-name">Português</span>
+          <span class="lang-native">Brasil</span>
+        </div>
+      </button>
     </div>
   </div>
 
