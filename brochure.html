@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>AXIOS INITIATIVE - Executive Brochure</title>
+  <title>AXIOS INITIATIVE — Brochure Ejecutivo Oficial</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
@@ -14,14 +14,15 @@
     }
 
     body {
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      background: #090D16;
-      color: #E2E8F0;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #060911;
+      color: #CBD5E1;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 20px;
+      padding: 24px;
       -webkit-print-color-adjust: exact;
+      line-height: 1.6;
     }
 
     /* Floating Download Bar */
@@ -29,31 +30,33 @@
       position: fixed;
       top: 20px;
       z-index: 10000;
-      background: rgba(14, 23, 42, 0.92);
-      backdrop-filter: blur(16px);
-      border: 1px solid rgba(227, 83, 9, 0.5);
+      background: rgba(14, 23, 42, 0.94);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(227, 83, 9, 0.45);
       border-radius: 40px;
-      padding: 12px 28px;
+      padding: 10px 24px;
       display: flex;
       align-items: center;
       gap: 20px;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.8), 0 0 25px rgba(227, 83, 9, 0.3);
+      box-shadow: 0 14px 40px rgba(0, 0, 0, 0.8), 0 0 25px rgba(227, 83, 9, 0.25);
     }
 
     .download-bar span {
-      font-size: 0.95rem;
-      font-weight: 600;
+      font-size: 0.9rem;
+      font-weight: 500;
       color: #FFFFFF;
+      letter-spacing: 0.01em;
     }
 
     .btn-pdf {
       background: linear-gradient(135deg, #FF6914 0%, #E35309 100%);
       color: #FFFFFF;
       border: none;
-      padding: 10px 22px;
+      padding: 9px 20px;
       border-radius: 30px;
-      font-weight: 700;
-      font-size: 0.9rem;
+      font-weight: 600;
+      font-size: 0.85rem;
       cursor: pointer;
       box-shadow: 0 4px 15px rgba(227, 83, 9, 0.4);
       transition: all 0.2s ease;
@@ -64,17 +67,17 @@
       box-shadow: 0 6px 20px rgba(227, 83, 9, 0.6);
     }
 
-    /* PDF Printable Canvas */
+    /* PDF Printable Canvas - A4 Scale Grid */
     #brochureContainer {
       width: 800px;
       background: #0B1120;
-      margin-top: 80px;
+      margin-top: 75px;
     }
 
     .page {
       width: 800px;
       height: 1130px;
-      padding: 45px 50px;
+      padding: 50px 55px; /* Generous 20mm margins */
       background: #0B1120;
       position: relative;
       overflow: hidden;
@@ -82,7 +85,7 @@
       flex-direction: column;
       justify-content: space-between;
       page-break-after: always;
-      border-bottom: 2px dashed rgba(255, 255, 255, 0.1);
+      border-bottom: 2px dashed rgba(255, 255, 255, 0.08);
     }
 
     /* Page Header */
@@ -90,233 +93,259 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-      padding-bottom: 15px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 18px;
     }
 
     .p-header img {
-      height: 38px;
+      height: 36px;
     }
 
     .p-header-tag {
-      font-size: 0.72rem;
-      font-weight: 600;
+      font-size: 0.75rem;
+      font-weight: 500;
       color: #FF8A50;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.02em;
     }
 
     /* Page Footer */
     .p-footer {
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
-      padding-top: 15px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 16px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       font-size: 0.75rem;
-      color: #94A3B8;
+      color: #64748B;
+      font-weight: 400;
     }
 
-    /* Cover Styling */
-    .cover-content {
-      margin-top: 30px;
+    /* Typography Scale */
+    .hero-hook-title {
+      font-size: 2rem; /* 28pt */
+      font-weight: 700;
+      line-height: 1.28;
+      color: #FFFFFF;
+      margin-bottom: 14px;
+      letter-spacing: -0.015em;
+    }
+
+    .section-headline {
+      font-size: 1.45rem; /* 22pt */
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+      letter-spacing: -0.01em;
+    }
+
+    .body-lead {
+      font-size: 0.95rem; /* 10pt */
+      line-height: 1.6;
+      color: #94A3B8;
+      font-weight: 400;
+      margin-bottom: 24px;
+    }
+
+    /* Modular Grid Layouts */
+    .grid-2col {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+
+    .grid-3col {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .grid-4col {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+
+    /* Modular Content Cards */
+    .module-card {
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 22px;
+      transition: all 0.2s ease;
+    }
+
+    .module-card-accent {
+      background: linear-gradient(135deg, rgba(227, 83, 9, 0.12) 0%, rgba(15, 23, 42, 0.9) 100%);
+      border: 1px solid rgba(227, 83, 9, 0.35);
+    }
+
+    .card-h3 {
+      font-size: 1rem; /* 14pt */
+      font-weight: 600;
+      color: #FF8A50;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .card-p {
+      font-size: 0.82rem; /* 9.5pt */
+      color: #CBD5E1;
+      line-height: 1.55;
+      font-weight: 400;
+    }
+
+    /* Big Data Callouts & Impact Metrics */
+    .metrics-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .metric-card {
+      background: rgba(14, 23, 42, 0.9);
+      border: 1px solid rgba(227, 83, 9, 0.3);
+      border-radius: 14px;
+      padding: 18px 14px;
+      text-align: center;
+    }
+
+    .metric-number {
+      font-size: 1.9rem;
+      font-weight: 800;
+      color: #FF8A50;
+      line-height: 1;
+      margin-bottom: 6px;
+      letter-spacing: -0.02em;
+    }
+
+    .metric-label {
+      font-size: 0.72rem;
+      color: #94A3B8;
+      font-weight: 500;
+      line-height: 1.35;
+    }
+
+    /* Cover Hero Section */
+    .cover-body {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
+      margin: auto 0;
     }
 
-    .cover-badge {
+    .cover-badge-pill {
       display: inline-block;
-      background: rgba(227, 83, 9, 0.15);
-      border: 1px solid rgba(227, 83, 9, 0.4);
+      background: rgba(227, 83, 9, 0.12);
+      border: 1px solid rgba(227, 83, 9, 0.35);
       color: #FF8A50;
-      font-size: 0.8rem;
-      font-weight: 600;
-      padding: 6px 18px;
+      font-size: 0.78rem;
+      font-weight: 500;
+      padding: 5px 16px;
       border-radius: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 18px;
+      letter-spacing: 0.02em;
     }
 
-    .cover-title {
-      font-size: 2.2rem;
-      font-weight: 800;
-      line-height: 1.25;
-      color: #FFFFFF;
-      margin-bottom: 15px;
-    }
-
-    .cover-subtitle {
-      font-size: 1rem;
-      color: #CBD5E1;
-      max-width: 620px;
-      line-height: 1.6;
-      margin-bottom: 30px;
-      font-weight: 400;
-    }
-
-    .cover-hero-img {
+    .cover-hero-image {
       width: 100%;
-      height: 380px;
+      height: 350px;
       object-fit: cover;
-      border-radius: 20px;
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
-      margin-bottom: 30px;
+      border-radius: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5);
+      margin: 22px 0 28px 0;
     }
 
-    .cover-pillars-preview {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 15px;
-      width: 100%;
+    /* Testimonial / Quote Box */
+    .quote-box {
+      background: rgba(14, 23, 42, 0.75);
+      border-left: 3px solid #E35309;
+      border-radius: 0 14px 14px 0;
+      padding: 16px 20px;
+      margin: 18px 0;
     }
 
-    .pillar-box {
-      background: rgba(15, 23, 42, 0.8);
-      border: 1px solid rgba(227, 83, 9, 0.3);
-      border-radius: 12px;
-      padding: 15px;
-      text-align: center;
-    }
-
-    .pillar-box h4 {
+    .quote-text {
+      font-style: italic;
       font-size: 0.85rem;
-      color: #FF8A50;
-      font-weight: 700;
-      margin-bottom: 4px;
+      color: #E2E8F0;
+      line-height: 1.55;
     }
 
-    .pillar-box p {
-      font-size: 0.72rem;
-      color: #94A3B8;
-      line-height: 1.3;
-    }
-
-    /* Page 2 Styling */
-    .sec-title {
-      font-size: 1.4rem;
-      font-weight: 700;
-      color: #FFFFFF;
-      margin-bottom: 6px;
-    }
-
-    .sec-desc {
-      font-size: 0.875rem;
-      color: #94A3B8;
-      margin-bottom: 25px;
-    }
-
-    .card-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-      margin-bottom: 25px;
-    }
-
-    .info-card {
-      background: rgba(15, 23, 42, 0.8);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 14px;
-      padding: 20px;
-    }
-
-    .info-card h3 {
-      font-size: 1rem;
+    .quote-author {
+      font-size: 0.75rem;
       font-weight: 600;
       color: #FF8A50;
-      margin-bottom: 8px;
+      margin-top: 8px;
     }
 
-    .info-card p {
-      font-size: 0.8rem;
-      color: #CBD5E1;
-      line-height: 1.5;
-    }
-
-    .history-highlight {
-      background: linear-gradient(135deg, rgba(227, 83, 9, 0.12) 0%, rgba(15, 23, 42, 0.9) 100%);
-      border: 1px solid rgba(227, 83, 9, 0.4);
-      border-radius: 16px;
-      padding: 22px;
-      margin-top: 10px;
-    }
-
-    .history-highlight h3 {
-      font-size: 1.1rem;
-      color: #FFFFFF;
-      margin-bottom: 8px;
-      font-weight: 700;
-    }
-
-    .history-highlight p {
-      font-size: 0.82rem;
-      color: #CBD5E1;
-      line-height: 1.6;
-    }
-
-    /* Page 3 Styling */
+    /* Table Styling */
     .table-sponsorship {
       width: 100%;
       border-collapse: collapse;
-      margin: 15px 0 25px 0;
-      background: rgba(15, 23, 42, 0.8);
+      margin: 16px 0 24px 0;
+      background: rgba(15, 23, 42, 0.85);
       border-radius: 12px;
       overflow: hidden;
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.08);
     }
 
     .table-sponsorship th {
-      background: rgba(227, 83, 9, 0.2);
+      background: rgba(227, 83, 9, 0.18);
       color: #FF8A50;
-      font-size: 0.8rem;
-      text-transform: uppercase;
-      padding: 12px 15px;
+      font-size: 0.78rem;
+      padding: 12px 16px;
       text-align: left;
       font-weight: 600;
     }
 
     .table-sponsorship td {
-      padding: 12px 15px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 12px 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
       font-size: 0.8rem;
       color: #CBD5E1;
+      font-weight: 400;
     }
 
     .table-sponsorship td strong {
       color: #FFFFFF;
-      font-size: 0.9rem;
+      font-weight: 600;
     }
 
-    .contact-cta-box {
-      background: rgba(15, 23, 42, 0.95);
-      border: 1px solid rgba(227, 83, 9, 0.5);
+    /* Contact CTA Block */
+    .cta-card {
+      background: linear-gradient(135deg, rgba(14, 23, 42, 0.95) 0%, rgba(7, 13, 25, 0.98) 100%);
+      border: 1px solid rgba(227, 83, 9, 0.45);
       border-radius: 18px;
-      padding: 25px;
+      padding: 26px;
       text-align: center;
-      margin-top: 20px;
+      margin-top: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
     }
 
-    .contact-cta-box h3 {
-      font-size: 1.2rem;
+    .cta-h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
       color: #FFFFFF;
       margin-bottom: 8px;
-      font-weight: 700;
     }
 
-    .contact-cta-box p {
+    .cta-p {
       font-size: 0.85rem;
-      color: #CBD5E1;
-      margin-bottom: 15px;
+      color: #94A3B8;
+      margin-bottom: 18px;
+      font-weight: 400;
     }
 
-    .contact-details {
+    .contact-grid {
       display: flex;
       justify-content: center;
-      gap: 30px;
+      gap: 24px;
       font-size: 0.8rem;
       color: #FF8A50;
-      font-weight: 600;
+      font-weight: 500;
     }
   </style>
 </head>
@@ -328,39 +357,42 @@
     <button class="btn-pdf" onclick="generatePDF()">Descargar Brochure en PDF</button>
   </div>
 
-  <!-- PDF Printable Area -->
+  <!-- PDF Printable Canvas -->
   <div id="brochureContainer">
 
-    <!-- PAGE 1: COVER -->
+    <!-- PAGE 1: PORTADA & PROPUESTA DE VALOR -->
     <div class="page">
       <div class="p-header">
         <img src="assets/logo-header.png" alt="AXIOS INITIATIVE">
-        <span class="p-header-tag" style="text-transform: none; letter-spacing: 0.02em; font-weight: 500;">Folleto institucional • 2026</span>
+        <span class="p-header-tag">Folleto institucional • 2026</span>
       </div>
 
-      <div class="cover-content">
-        <span class="cover-badge" style="font-weight: 500; letter-spacing: 0.02em;">Organización cristiana 501(c)(3) • Estado de Florida</span>
-        <h1 class="cover-title" style="font-weight: 700; letter-spacing: -0.01em;">Restaurando la dignidad,<br>Honrando el llamado,<br>Inspirando esperanza</h1>
-        <p class="cover-subtitle" style="font-weight: 400; letter-spacing: 0.01em;">Existimos para honrar, fortalecer y acompañar a los pastores y sus familias, brindándoles atención integral, restauración, capacitación y apoyo financiero.</p>
-        
-        <img src="assets/program-sponsorship.jpg" class="cover-hero-img" alt="Familia Pastoral">
+      <div class="cover-body">
+        <span class="cover-badge-pill">Organización cristiana 501(c)(3) • Estado de Florida</span>
+        <h1 class="hero-hook-title">Restaurando la dignidad,<br>Honrando el llamado,<br>Inspirando esperanza</h1>
+        <p class="body-lead" style="max-width: 620px; margin-bottom: 0;">
+          Acompañamos y fortalecemos integralmente a familias pastorales en Latinoamérica a través de salud emocional, capacitación teológica y apoyo financiero estructurado.
+        </p>
 
-        <div class="cover-pillars-preview">
-          <div class="pillar-box">
-            <h4 style="font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;">Cuidar</h4>
-            <p>Salud mental y emocional pastoral.</p>
+        <img src="assets/program-sponsorship.jpg" class="cover-hero-image" alt="Familia Pastoral Axios">
+
+        <!-- Modular Pillars Grid -->
+        <div class="grid-4col" style="width: 100%;">
+          <div class="module-card" style="padding: 14px; text-align: center;">
+            <h4 class="card-h3" style="font-size: 0.85rem;">Cuidar</h4>
+            <p class="card-p" style="font-size: 0.72rem;">Salud mental y consejería confidencial.</p>
           </div>
-          <div class="pillar-box">
-            <h4 style="font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;">Restaurar</h4>
-            <p>Retiros y renovación de fuerzas.</p>
+          <div class="module-card" style="padding: 14px; text-align: center;">
+            <h4 class="card-h3" style="font-size: 0.85rem;">Restaurar</h4>
+            <p class="card-p" style="font-size: 0.72rem;">Retiros y renovación de fuerzas.</p>
           </div>
-          <div class="pillar-box">
-            <h4 style="font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;">Equipar</h4>
-            <p>Capacitación y mentoría práctica.</p>
+          <div class="module-card" style="padding: 14px; text-align: center;">
+            <h4 class="card-h3" style="font-size: 0.85rem;">Equipar</h4>
+            <p class="card-p" style="font-size: 0.72rem;">Formación práctica y mentorías.</p>
           </div>
-          <div class="pillar-box">
-            <h4 style="font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;">Conectar</h4>
-            <p>Puentes de patrocinio y alianza.</p>
+          <div class="module-card" style="padding: 14px; text-align: center;">
+            <h4 class="card-h3" style="font-size: 0.85rem;">Conectar</h4>
+            <p class="card-p" style="font-size: 0.72rem;">Puentes de patrocinio y alianza.</p>
           </div>
         </div>
       </div>
@@ -371,41 +403,64 @@
       </div>
     </div>
 
-    <!-- PAGE 2: CORE INITIATIVES & ORIGIN -->
+    <!-- PAGE 2: DECLARACIÓN DE VALOR, SOLUCIONES & CIFRAS DE IMPACTO -->
     <div class="page">
       <div class="p-header">
         <img src="assets/logo-header.png" alt="AXIOS INITIATIVE">
-        <span class="p-header-tag" style="text-transform: none; letter-spacing: 0.02em; font-weight: 500;">Nuestras iniciativas estratégicas</span>
+        <span class="p-header-tag">Propuesta estratégica & soluciones</span>
       </div>
 
-      <div>
-        <h2 class="sec-title" style="font-weight: 700;">Cuidando al corazón detrás del llamado</h2>
-        <p class="sec-desc" style="font-weight: 400;">Detrás de cada pastor hay una persona, una familia y una historia que también necesitan ser cuidadas.</p>
+      <div style="margin-top: 10px;">
+        <h2 class="section-headline">Cuidando al corazón detrás del llamado</h2>
+        <p class="body-lead">
+          No podemos hablar de iglesias saludables sin hablar de pastores saludables. Apoyamos al líder y a su familia para que continúen su ministerio con vigor y estabilidad.
+        </p>
 
-        <div class="card-grid">
-          <div class="info-card">
-            <h3 style="font-weight: 600;">Iniciativa 01: Salud mental y espiritual</h3>
-            <p style="font-weight: 400;">Atención integral, consejería confidencial, evaluaciones de bienestar y retiros espirituales diseñados para prevenir el agotamiento (burnout) y restaurar a los matrimonios pastorales.</p>
+        <!-- Big Data Metrics / Impact Callouts -->
+        <div class="metrics-container">
+          <div class="metric-card">
+            <div class="metric-number">20+</div>
+            <div class="metric-label">Países investigados en América Latina</div>
           </div>
-          <div class="info-card">
-            <h3 style="font-weight: 600;">Iniciativa 02: Capacitación teológica y liderazgo</h3>
-            <p style="font-weight: 400;">Talleres de pregação expositiva, mentorías de liderazgo, revitalización de iglesias y desarrollo de la próxima generación de pastores y plantadores.</p>
+          <div class="metric-card">
+            <div class="metric-number">30</div>
+            <div class="metric-label">Años de experiencia pastoral del fundador</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-number">100%</div>
+            <div class="metric-label">Confidencialidad e integridad fiduciaria</div>
           </div>
         </div>
 
-        <div class="history-highlight">
-          <h3 style="font-weight: 600;">Nuestra historia y el significado de Axios</h3>
-          <p style="font-weight: 400;">Derivado del griego original, <strong>Axios</strong> significa <em>"Digno, Valioso, Merecedor de Honor"</em> (1 Timoteo 5:17). Nacida de casi 30 años de experiencia pastoral del Pr. Lielson Penido y una investigación realizada en más de 20 países de Latinoamérica, Axios Initiative surge para responder a la pregunta: <em>¿Quién cuida de quienes cuidan?</em></p>
+        <!-- Solutions Grid -->
+        <div class="grid-2col" style="margin-bottom: 20px;">
+          <div class="module-card">
+            <h3 class="card-h3">Iniciativa 01: Salud mental y espiritual</h3>
+            <p class="card-p">Atención integral, consejería confidencial, evaluaciones de bienestar y retiros diseñados para prevenir el agotamiento (burnout) y sanar matrimonios.</p>
+          </div>
+          <div class="module-card">
+            <h3 class="card-h3">Iniciativa 02: Formación teológica y liderazgo</h3>
+            <p class="card-p">Talleres de pregação expositiva, mentorías prácticas, revitalización de iglesias y desarrollo de líderes de la próxima generación.</p>
+          </div>
         </div>
 
-        <div style="margin-top: 25px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
-          <div class="info-card">
-            <h3 style="font-weight: 600;">Pr. Lielson Penido</h3>
-            <p style="font-weight: 400;"><span style="color: #FF8A50; font-weight: 500;">Fundador y Director Ejecutivo</span><br>Con experiencia como misionero en Europa, pastor de adorno y Director de Lenguas de la Asociación Bautista de Tampa Bay.</p>
+        <!-- Origin & Differentiators -->
+        <div class="module-card module-card-accent">
+          <h3 class="card-h3" style="color: #FFFFFF;">Diferencial estratégico & Significado de Axios</h3>
+          <p class="card-p">
+            Del griego <strong>Axios</strong> (<em>"Digno, Valioso, Merecedor de Honor"</em> - 1 Timoteo 5:17). A diferencia de programas asistenciales convencionales, Axios combina verificación denominacional objetiva con un acompañamiento confidencial y humano.
+          </p>
+        </div>
+
+        <!-- Leadership & Governance -->
+        <div class="grid-2col" style="margin-top: 20px;">
+          <div class="module-card">
+            <h3 class="card-h3">Pr. Lielson Penido</h3>
+            <p class="card-p"><span style="color: #FF8A50; font-weight: 500;">Fundador y Director Ejecutivo</span><br>Ex misionero en Europa y Director de Lenguas en Tampa Bay Baptist Association.</p>
           </div>
-          <div class="info-card">
-            <h3 style="font-weight: 600;">Junta Directiva</h3>
-            <p style="font-weight: 400;">Conformada por el Dr. Francisco Juarbe (Vicepresidente), Pr. Mario Figueroa (Secretario) y Pr. David Endara (Tesorero), garantizando estricta gobernanza fiduciaria.</p>
+          <div class="module-card">
+            <h3 class="card-h3">Junta Directiva</h3>
+            <p class="card-p">Liderada por el Dr. Francisco Juarbe, Pr. Mario Figueroa y Pr. David Endara, velando por el cumplimiento de la norma 501(c)(3).</p>
           </div>
         </div>
       </div>
@@ -416,53 +471,62 @@
       </div>
     </div>
 
-    <!-- PAGE 3: ADOPTION PROGRAM & CONTACT -->
+    <!-- PAGE 3: PROGRAMA DE ADOPCIÓN, TESTIMONIO & CTA -->
     <div class="page">
       <div class="p-header">
         <img src="assets/logo-header.png" alt="AXIOS INITIATIVE">
-        <span class="p-header-tag" style="text-transform: none; letter-spacing: 0.02em; font-weight: 500;">Programa de adopción y contacto</span>
+        <span class="p-header-tag">Adopción pastoral & alianzas</span>
       </div>
 
-      <div>
-        <h2 class="sec-title" style="font-weight: 700;">Iniciativa 03: Adopción familiar pastoral</h2>
-        <p class="sec-desc" style="font-weight: 400;">Un marco transparente que conecta a personas e iglesias patrocinadoras con familias pastorales bautistas verificadas.</p>
+      <div style="margin-top: 10px;">
+        <h2 class="section-headline">Iniciativa 03: Adopción familiar pastoral</h2>
+        <p class="body-lead">Un marco transparente que conecta patrocinadores e iglesias con familias pastorales bautistas cualificadas.</p>
 
+        <!-- Structured Table -->
         <table class="table-sponsorship">
           <thead>
             <tr>
-              <th style="text-transform: none; font-weight: 600; letter-spacing: 0.02em;">Patrocinio mensual</th>
-              <th style="text-transform: none; font-weight: 600; letter-spacing: 0.02em;">Perfil financiero general</th>
+              <th>Patrocinio mensual</th>
+              <th>Perfil financiero general</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><strong style="font-weight: 600;">$100 - $200 / mes</strong></td>
-              <td style="font-weight: 400;">Apoyo complementario cuando la iglesia o familia ya cubren una parte significativa.</td>
+              <td><strong>$100 - $200 / mes</strong></td>
+              <td>Apoyo complementario cuando la iglesia o familia ya cubren una parte significativa.</td>
             </tr>
             <tr>
-              <td><strong style="font-weight: 600;">$300 / mes</strong></td>
-              <td style="font-weight: 400;">Brecha moderada verificada que afecta las necesidades normales del hogar.</td>
+              <td><strong>$300 / mes</strong></td>
+              <td>Brecha moderada verificada que afecta las necesidades normales del hogar.</td>
             </tr>
             <tr>
-              <td><strong style="font-weight: 600;">$400 / mes</strong></td>
-              <td style="font-weight: 400;">Brecha significativa entre la compensación pastoral y el costo de vida local.</td>
+              <td><strong>$400 / mes</strong></td>
+              <td>Brecha significativa entre la compensación pastoral y el costo de vida local.</td>
             </tr>
             <tr>
-              <td><strong style="font-weight: 600;">$500 / mes</strong></td>
-              <td style="font-weight: 400;">Patrocinio máximo estándar de Axios para necesidad verificada substancial.</td>
+              <td><strong>$500 / mes</strong></td>
+              <td>Patrocinio máximo estándar de Axios para necesidad verificada substancial.</td>
             </tr>
           </tbody>
         </table>
 
-        <div class="info-card" style="margin-bottom: 20px;">
-          <h3 style="font-weight: 600;">Verificación en 3 niveles (Sello Pastor Verificado)</h3>
-          <p style="font-weight: 400;">Cada pastor participante atraviesa una evaluación rigurosa de carácter bíblico (1 Timoteo 3 / Tito 1), necesidad financiera documentada y recomendación escrita de su <strong>Iglesia Local</strong>, <strong>Asociación Bautista</strong> y <strong>Convención Bautista</strong>.</p>
+        <!-- Verification Protocol -->
+        <div class="module-card" style="margin-bottom: 20px;">
+          <h3 class="card-h3">Verificación en 3 niveles (Sello Pastor Verificado)</h3>
+          <p class="card-p">Evaluación rigurosa de carácter bíblico (1 Timoteo 3 / Tito 1) y recomendación escrita independiente de 3 organismos: <strong>Iglesia Local</strong>, <strong>Asociación Bautista</strong> y <strong>Convención Bautista</strong>.</p>
         </div>
 
-        <div class="contact-cta-box">
-          <h3 style="font-weight: 700;">Adopte un proyecto o patrocine una familia pastoral</h3>
-          <p style="font-weight: 400;">Su generosidad deducible de impuestos fortalece directamente a quienes dedican su vida a cuidar la Iglesia en Latinoamérica.</p>
-          <div class="contact-details" style="font-weight: 500;">
+        <!-- Testimonial Box -->
+        <div class="quote-box">
+          <p class="quote-text">"La iniciativa Axios nos brindó el respiro emocional y financiero que necesitábamos para renovar nuestro llamado y seguir sirviendo a nuestra comunidad con paz."</p>
+          <div class="quote-author">— Familia Pastoral participante en Equador</div>
+        </div>
+
+        <!-- Executive CTA Card -->
+        <div class="cta-card">
+          <h3 class="cta-h3">Adopte un proyecto o patrocine una familia pastoral</h3>
+          <p class="cta-p">Su generosidad deducible de impuestos fortalece directamente a quienes dedican su vida a cuidar la Iglesia en Latinoamérica.</p>
+          <div class="contact-grid">
             <span>📍 Estado de Florida, EE.UU.</span>
             <span>✉️ contact@axiosinitiative.org</span>
             <span>🌐 axios-initiative.web.app</span>
@@ -483,7 +547,7 @@
       const element = document.getElementById('brochureContainer');
       const opt = {
         margin:       0,
-        filename:     'AXIOS_Initiative_Executive_Brochure.pdf',
+        filename:     'AXIOS_Initiative_Brochure_Ejecutivo.pdf',
         image:        { type: 'jpeg', quality: 0.98 },
         html2canvas:  { scale: 2, useCORS: true, logging: false },
         jsPDF:        { unit: 'pt', format: 'a4', orientation: 'portrait' }
