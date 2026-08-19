@@ -2533,9 +2533,11 @@ body {
   background: rgba(14, 23, 42, 0.65);
   border: 1px solid rgba(227, 83, 9, 0.35);
   border-radius: 14px;
-  padding: 16px 20px;
+  padding: 18px 20px;
   transition: all var(--transition-fast);
   backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
 }
 
 .story-feature-card:hover {
@@ -2545,6 +2547,15 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
+.story-feature-card .card-svg-icon {
+  width: 30px;
+  height: 30px;
+  stroke: var(--primary-orange-light);
+  margin-bottom: 10px;
+  display: block;
+  flex-shrink: 0;
+}
+
 .story-feature-card .card-icon {
   font-size: 1.35rem;
   margin-bottom: 6px;
@@ -2552,10 +2563,10 @@ body {
 }
 
 .story-feature-card .card-title {
-  font-size: 0.9375rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: var(--primary-orange-light);
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .story-feature-card .card-text {
