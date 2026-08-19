@@ -277,6 +277,27 @@ function initApp() {
     });
   }
 
+  // Generic helper for Cards 3 to 13 modals
+  for (let i = 3; i <= 13; i++) {
+    const modal = document.getElementById(`card${i}Modal`);
+    const closeBtn = document.getElementById(`closeCard${i}ModalBtn`);
+    if (modal) {
+      document.querySelectorAll(`.trigger-card${i}-modal`).forEach(trigger => {
+        trigger.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          modal.classList.add('active');
+        });
+      });
+      if (closeBtn) {
+        closeBtn.addEventListener('click', () => modal.classList.remove('active'));
+      }
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) modal.classList.remove('active');
+      });
+    }
+  }
+
   // Initialize with English
   setLanguage('en');
   navigateTo('home');
